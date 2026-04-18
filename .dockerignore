@@ -1,0 +1,16 @@
+node_modules
+.next
+.git
+.gitignore
+.env*.local
+.vscode
+.idea
+*.log
+npm-debug.log*
+README.md
+AGENTS.md
+CLAUDE.md
+figma_reference.txt
+tsconfig.tsbuildinfo
+Dockerfile
+.dockerignore

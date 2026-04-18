@@ -1,0 +1,1344 @@
+const imgGroup = "https://www.figma.com/api/mcp/asset/56bf7c32-6fc4-484b-a9a0-217c56e63927";
+const imgGroup1 = "https://www.figma.com/api/mcp/asset/f4a70ed7-2540-4433-bd80-45a9678e7831";
+const imgSolarAltArrowRightLinear = "https://www.figma.com/api/mcp/asset/f790941d-22a7-401e-a4f9-225e61b31259";
+const imgEllipse2 = "https://www.figma.com/api/mcp/asset/16a4207b-762e-4830-bf76-d64f90eb5a71";
+const imgGroup2 = "https://www.figma.com/api/mcp/asset/15721f26-03bb-41d4-bbb7-a7d354da9c96";
+const imgGroup3 = "https://www.figma.com/api/mcp/asset/cab8d20c-7b7d-423e-8d57-e55f149d1616";
+const imgVector = "https://www.figma.com/api/mcp/asset/786bdd83-b0cf-484e-beb0-67ec118521bb";
+const imgGroup4 = "https://www.figma.com/api/mcp/asset/08adb50b-0bc2-4431-8466-1871bca41f94";
+const imgEllipse1 = "https://www.figma.com/api/mcp/asset/355d32f0-d8c4-479c-ae25-1d16bb745f12";
+const imgSolarHamburgerMenuLinear = "https://www.figma.com/api/mcp/asset/1e9852c2-976b-4fdd-b95d-7f3924be7307";
+const imgGroup5 = "https://www.figma.com/api/mcp/asset/2c918f65-be39-42c3-9554-81c800da154b";
+const imgLine14 = "https://www.figma.com/api/mcp/asset/f20a9cac-b62d-43ce-81bb-9d0bdd5c0c18";
+const imgLine35 = "https://www.figma.com/api/mcp/asset/8362079b-7127-4cf3-acce-d882940a250c";
+const imgGroup6 = "https://www.figma.com/api/mcp/asset/f13609b5-4010-4fc5-af0b-2a3f1e346d71";
+const imgGroup7 = "https://www.figma.com/api/mcp/asset/f15a4078-7afb-4389-9d62-645220caea2b";
+const imgGroup8 = "https://www.figma.com/api/mcp/asset/81bfd43f-0d80-463e-9c51-ff8545b6b2fe";
+const imgTablerBuilding = "https://www.figma.com/api/mcp/asset/970677fa-6ef2-4850-a456-92af5c446f88";
+const imgGroup9 = "https://www.figma.com/api/mcp/asset/a0e94df2-7284-4b9e-8371-f531c757020d";
+const imgGroup10 = "https://www.figma.com/api/mcp/asset/3e5a3de9-b7e2-472f-943c-792f7759829c";
+const imgGroup11 = "https://www.figma.com/api/mcp/asset/f14f3ead-d23e-4213-9cef-75b580961c7b";
+const imgGroup12 = "https://www.figma.com/api/mcp/asset/e1f74fc4-40e3-41da-a449-f97eb8a19611";
+const imgFrame427322001 = "https://www.figma.com/api/mcp/asset/dff36b09-8c9f-45a0-aa14-4b4b6cc809ea";
+const imgSolarArrowRightUpLinear = "https://www.figma.com/api/mcp/asset/975c8fad-521e-4f5d-ba61-c10d1420a0f5";
+const imgLine1 = "https://www.figma.com/api/mcp/asset/d3f158ec-b488-4b57-a9e2-ea3d3a486931";
+const imgLine17 = "https://www.figma.com/api/mcp/asset/d5d79818-61fb-4964-94ad-5bf9cda4411a";
+const imgLine33 = "https://www.figma.com/api/mcp/asset/2ef01807-ad45-42ba-b386-05075c07e132";
+const imgLine3 = "https://www.figma.com/api/mcp/asset/8462c991-b6a2-43b8-b8c5-53660e5eb239";
+const imgLine19 = "https://www.figma.com/api/mcp/asset/7ae02c6f-9b8f-4d1a-937b-c5e51c124a34";
+const imgLine21 = "https://www.figma.com/api/mcp/asset/4a06e007-7573-419a-aa42-4fb29630d2b7";
+const imgLine25 = "https://www.figma.com/api/mcp/asset/4fc7df2f-d833-42f3-bfca-b4853664d505";
+const imgLine31 = "https://www.figma.com/api/mcp/asset/45d856cf-fed9-4c27-9de0-00a9906614de";
+const imgLine5 = "https://www.figma.com/api/mcp/asset/a91a8750-d215-479d-b68a-2d44305eb2e9";
+const imgLine6 = "https://www.figma.com/api/mcp/asset/f6a0523d-812d-405b-a5a4-cc3ae3c616a7";
+const imgLine7 = "https://www.figma.com/api/mcp/asset/eb4e818a-dc37-4211-be6f-93399f21038a";
+const imgLine9 = "https://www.figma.com/api/mcp/asset/375bde8d-57b7-4f95-afce-40e222bc9902";
+const imgLine12 = "https://www.figma.com/api/mcp/asset/63b86c59-f24c-43c3-b439-78153ecf19f0";
+const imgLine13 = "https://www.figma.com/api/mcp/asset/b0b28dbd-14b7-44b6-88d1-26bccfa0a1f6";
+const imgSolarAltArrowLeftLinear = "https://www.figma.com/api/mcp/asset/6b3b145e-fd36-4fbb-913f-efcf33ffab84";
+const imgVector1 = "https://www.figma.com/api/mcp/asset/3ac54580-9316-423f-9229-5a238dbc11b2";
+const imgVector2 = "https://www.figma.com/api/mcp/asset/1995ac97-7b4d-4d12-b761-55efe929a983";
+const imgVector3 = "https://www.figma.com/api/mcp/asset/b8b9521b-1e66-4a11-8a6b-50dd13d7acaf";
+const imgVector4 = "https://www.figma.com/api/mcp/asset/c10c1ae6-9306-443b-9161-04941caa2841";
+const imgVector5 = "https://www.figma.com/api/mcp/asset/fa8da3f8-d427-4304-afba-00f0d2ad5964";
+const imgVector6 = "https://www.figma.com/api/mcp/asset/5fe2a285-342a-4b26-b478-10c427bb3501";
+const imgVector7 = "https://www.figma.com/api/mcp/asset/cfa00d2f-d281-43cb-9231-7ee04e9f5ff9";
+const imgLine34 = "https://www.figma.com/api/mcp/asset/3396cf47-869a-4612-90ee-b118aa7b575a";
+const imgSolarAltArrowDownLinear = "https://www.figma.com/api/mcp/asset/a69712db-3d14-4b88-a0bd-53a4309eb24b";
+const imgSolarAltArrowDownLinear1 = "https://www.figma.com/api/mcp/asset/ea63112e-5462-4b4b-b459-048ad9a363cc";
+const imgGroup13 = "https://www.figma.com/api/mcp/asset/cefe9e62-71d1-4dff-bcc3-95e7533b03a6";
+const imgSolarHamburgerMenuLinear1 = "https://www.figma.com/api/mcp/asset/cf5a3598-8f4a-443e-afa1-e662ae978de6";
+const imgVector8 = "https://www.figma.com/api/mcp/asset/2581a8a0-b3d9-4c45-81f4-86f1e102b2b1";
+
+function SolarArchiveUpMinimlisticLineDuotone({ className }: { className?: string }) {
+  return (
+    <div className={className || "overflow-clip relative size-[24px]"} data-node-id="22:990" data-name="solar:archive-up-minimlistic-line-duotone">
+      <div className="absolute inset-[8.33%]" data-node-id="22:689" data-name="Group">
+        <div className="absolute inset-[-3.75%]">
+          <img alt="" className="block max-w-none size-full" src={imgGroup} />
+        </div>
+      </div>
+    </div>
+  );
+}
+
+function SolarArchiveDownMinimlisticLineDuotone({ className }: { className?: string }) {
+  return (
+    <div className={className || "overflow-clip relative size-[24px]"} data-node-id="22:991" data-name="solar:archive-down-minimlistic-line-duotone">
+      <div className="absolute inset-[8.33%]" data-node-id="22:673" data-name="Group">
+        <div className="absolute inset-[-3.75%]">
+          <img alt="" className="block max-w-none size-full" src={imgGroup1} />
+        </div>
+      </div>
+    </div>
+  );
+}
+
+function Frame427322282({ className }: { className?: string }) {
+  return (
+    <div className={className || "content-stretch flex items-center justify-between relative w-[344px]"} data-node-id="96:4433">
+      <div className="content-stretch flex flex-col gap-[2px] items-start leading-[normal] relative shrink-0 whitespace-nowrap" data-node-id="66:1409">
+        <p className="font-['Zalando_Sans_Expanded:Regular',sans-serif] not-italic relative shrink-0 text-[#47535f] text-[14px]" data-node-id="66:1168">
+          Medicações
+        </p>
+        <p className="font-['Plus_Jakarta_Sans:Medium',sans-serif] font-medium relative shrink-0 text-[12px] text-[rgba(71,83,95,0.47)]" data-node-id="66:1169">{`Acompanhe e organize as movimentações `}</p>
+      </div>
+      <div className="relative shrink-0 size-[18px]" data-node-id="96:4430" data-name="solar:alt-arrow-right-linear">
+        <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgSolarAltArrowRightLinear} />
+      </div>
+    </div>
+  );
+}
+
+function Component1({ className }: { className?: string }) {
+  return (
+    <div className={className || "h-[46.569px] relative w-[713px]"} data-node-id="22:1141" data-name="Component 1">
+      <div className="absolute content-stretch flex gap-[12.255px] inset-[0_72.56%_0_0] items-center" data-node-id="22:1124">
+        <div className="relative shrink-0 size-[55.852px]" data-node-id="22:1125">
+          <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgEllipse2} />
+        </div>
+        <div className="content-stretch flex flex-col gap-[4.902px] items-start leading-[normal] relative shrink-0 w-[177.697px]" data-node-id="22:1126">
+          <p className="font-['DM_Sans:Medium',sans-serif] font-medium min-w-full relative shrink-0 text-[#535353] text-[14px] w-[min-content]" data-node-id="22:1127" style={{ fontVariationSettings: "'opsz' 14" }}>
+            Maria Silva
+          </p>
+          <p className="font-['DM_Sans:Regular',sans-serif] font-normal relative shrink-0 text-[#a2a2a2] text-[12px] whitespace-nowrap" data-node-id="22:1128" style={{ fontVariationSettings: "'opsz' 14" }}>
+            Rinoplastia Estética
+          </p>
+        </div>
+        <div className="absolute left-[17.51px] overflow-clip size-[20px] top-[12.87px]" data-node-id="24:590" data-name="solar:user-linear">
+          <div className="absolute inset-[8.33%_16.67%]" data-node-id="24:591" data-name="Group">
+            <div className="absolute inset-[-4.5%_-5.63%]">
+              <img alt="" className="block max-w-none size-full" src={imgGroup2} />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="-translate-x-1/2 -translate-y-1/2 absolute bg-[#fafbf6] content-stretch flex items-center justify-center left-[calc(50%+29.5px)] px-[15px] py-[9.804px] rounded-[28.186px] top-[calc(50%-0.38px)]" data-node-id="22:1131">
+        <p className="font-['DM_Sans:Medium',sans-serif] font-medium leading-[normal] relative shrink-0 text-[#a5c16e] text-[12px] whitespace-nowrap" data-node-id="22:1132" style={{ fontVariationSettings: "'opsz' 14" }}>
+          Pago
+        </p>
+      </div>
+      <div className="-translate-x-1/2 absolute bottom-[1.43%] content-stretch flex gap-[12.255px] items-center left-[calc(50%+238px)] top-[10.53%]" data-node-id="22:1133">
+        <div className="content-stretch flex flex-col items-end leading-[normal] relative shrink-0 text-right w-[144.434px]" data-node-id="22:1134">
+          <p className="font-['DM_Sans:Medium',sans-serif] font-medium relative shrink-0 text-[#5b5b5b] text-[14px] w-full" data-node-id="22:1135" style={{ fontVariationSettings: "'opsz' 14" }}>
+            R$ 18.500,00
+          </p>
+          <p className="font-['DM_Sans:Regular',sans-serif] font-normal relative shrink-0 text-[#a2a2a2] text-[12px] w-full" data-node-id="22:1136" style={{ fontVariationSettings: "'opsz' 14" }}>
+            01 de Janeiro de 2026
+          </p>
+        </div>
+        <div className="border-[#efefef] border-[1.124px] border-solid content-stretch flex items-center justify-center p-[13.493px] relative rounded-[112.438px] shrink-0 size-[40px]" data-node-id="24:385">
+          <div className="overflow-clip relative shrink-0 size-[18px]" data-node-id="24:386" data-name="solar:export-linear">
+            <div className="absolute inset-[16.67%]" data-node-id="I24:386;278:6957" data-name="Group">
+              <div className="absolute inset-[-6.25%]">
+                <img alt="" className="block max-w-none size-full" src={imgGroup3} />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="content-stretch flex items-center p-[4.431px] relative rounded-[8.862px] shrink-0" data-node-id="24:421">
+          <div className="overflow-clip relative shrink-0 size-[19.94px]" data-node-id="24:422" data-name="tabler:chevron-right">
+            <div className="absolute bottom-1/4 left-[37.5%] right-[37.5%] top-1/4" data-node-id="I24:422;69:1524" data-name="Vector">
+              <div className="absolute inset-[-5.02%_-10.03%]">
+                <img alt="" className="block max-w-none size-full" src={imgVector} />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+function SolarWadOfMoneyLinear({ className }: { className?: string }) {
+  return (
+    <div className={className || "overflow-clip relative size-[32px]"} data-node-id="22:1025" data-name="solar:wad-of-money-linear">
+      <div className="absolute inset-[20.83%_8.33%]" data-node-id="22:1021" data-name="Group">
+        <div className="absolute inset-[-4.02%_-2.81%]">
+          <img alt="" className="block max-w-none size-full" src={imgGroup4} />
+        </div>
+      </div>
+    </div>
+  );
+}
+
+export default function Slide1691() {
+  return (
+    <div className="bg-white relative size-full" data-node-id="1:2" data-name="Slide 16:9 - 1">
+      <p className="absolute font-['Zalando_Sans_Expanded:Medium',sans-serif] leading-[normal] left-[1613.13px] not-italic text-[12px] text-[rgba(15,15,15,0.63)] top-[44.47px] whitespace-nowrap" data-node-id="3:64">
+        Seg, 12 jan
+      </p>
+      <div className="absolute bg-[#ff9898] content-stretch flex items-center justify-center left-[1704px] p-[5px] rounded-[13px] top-[40.97px]" data-node-id="13:180">
+        <p className="font-['Zalando_Sans_Expanded:SemiBold',sans-serif] leading-[normal] not-italic relative shrink-0 text-[10px] text-white whitespace-nowrap" data-node-id="13:181">
+          05
+        </p>
+      </div>
+      <p className="-translate-x-full absolute font-['Zalando_Sans_Expanded:Medium',sans-serif] h-[13.798px] leading-[0] left-[1849.62px] not-italic text-[12px] text-[rgba(92,86,77,0.55)] text-right top-[608.1px] w-[303.456px]" data-node-id="10:137">
+        <span className="leading-[normal]">{`Ver `}</span>
+        <span className="leading-[normal] text-[rgba(0,0,0,0.55)]">84 Lançamentos</span>
+      </p>
+      <div className="absolute border border-[#f4f4f4] border-solid h-[50px] left-[1559px] rounded-[37px] top-[26.97px] w-[190.659px]" data-node-id="13:164" />
+      <div className="absolute contents left-[1818.19px] top-[30.18px]" data-node-id="22:1538">
+        <div className="absolute border border-[#e9e9e9] border-solid left-[1818.19px] rounded-[17px] size-[50px] top-[30.18px]" data-node-id="13:156" />
+        <div className="absolute left-[1831.19px] size-[24px] top-[43.18px]" data-node-id="13:161" data-name="solar:hamburger-menu-linear">
+          <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgSolarHamburgerMenuLinear} />
+        </div>
+      </div>
+      <div className="absolute bg-[#f2f2f2] content-stretch flex items-center left-[1564.7px] p-[10px] rounded-[41px] size-[37px] top-[33.47px]" data-node-id="13:183">
+        <div className="overflow-clip relative shrink-0 size-[17px]" data-node-id="13:173" data-name="solar:bell-linear">
+          <div className="absolute inset-[8.33%_12.5%]" data-node-id="13:174" data-name="Group">
+            <div className="absolute inset-[-3.53%_-3.92%]">
+              <img alt="" className="block max-w-none size-full" src={imgGroup5} />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="absolute content-stretch flex flex-col gap-px items-start left-[1146.47px] not-italic text-[12px] top-[46.18px] w-[311.51px]" data-node-id="19:254">
+        <p className="font-['Zalando_Sans_Expanded:Medium',sans-serif] leading-[normal] relative shrink-0 text-[#1e1e1e] w-full" data-node-id="7:108">
+          Operacional Financeiro
+        </p>
+        <p className="font-['Zalando_Sans_Expanded:Regular',sans-serif] leading-[20px] relative shrink-0 text-[#9f9f9f] w-full" data-node-id="7:109">
+          Início/ Financeiro
+        </p>
+      </div>
+      <div className="absolute content-stretch flex flex-col gap-px items-start left-[697.9px] not-italic top-[728.92px] w-[311.51px]" data-node-id="22:1071">
+        <p className="font-['Zalando_Sans_Expanded:Medium',sans-serif] leading-[normal] relative shrink-0 text-[#1e1e1e] text-[14px] w-full" data-node-id="22:1072">
+          Adicionar Informações
+        </p>
+        <p className="font-['Zalando_Sans_Expanded:Regular',sans-serif] leading-[20px] relative shrink-0 text-[#9f9f9f] text-[10px] w-full" data-node-id="22:1073">
+          Cadastre Recebimentos e Despesas
+        </p>
+      </div>
+      <div className="absolute flex h-[23.581px] items-center justify-center left-[578px] top-[462.27px] w-0">
+        <div className="-rotate-90 flex-none">
+          <div className="h-0 relative w-[23.581px]" data-node-id="22:623">
+            <div className="absolute inset-[-1px_0_0_0]">
+              <img alt="" className="block max-w-none size-full" src={imgLine14} />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="absolute content-stretch flex flex-col items-start left-[669px] pb-[2px] top-[782px] w-[385px]" data-node-id="22:897">
+        <div className="content-stretch flex h-[88px] items-center justify-between mb-[-2px] px-[18px] py-[4px] relative rounded-[19px] shrink-0 w-full" data-node-id="22:724">
+          <div className="content-stretch flex gap-[13px] items-center relative shrink-0" data-node-id="22:794">
+            <div className="bg-[rgba(165,193,110,0.06)] content-stretch flex items-center p-[13.95px] relative rounded-[23.715px] shrink-0" data-node-id="22:725">
+              <SolarArchiveDownMinimlisticLineDuotone className="overflow-clip relative shrink-0 size-[24px]" />
+            </div>
+            <div className="content-stretch flex flex-col gap-[2.092px] items-start justify-center relative shrink-0" data-node-id="22:729">
+              <div className="content-stretch flex items-center relative shrink-0" data-node-id="22:730">
+                <p className="font-['Zalando_Sans_Expanded:Medium',sans-serif] leading-[normal] not-italic relative shrink-0 text-[#9d998a] text-[14px] whitespace-nowrap" data-node-id="22:731">
+                  Novo Recebimento
+                </p>
+              </div>
+              <div className="content-stretch flex items-center relative shrink-0" data-node-id="22:732">
+                <p className="font-['Zalando_Sans_Expanded:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[12.552px] text-[rgba(198,194,179,0.7)] whitespace-nowrap" data-node-id="22:733">
+                  Adicionar novo Recebimento
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="content-stretch flex items-center p-[4.431px] relative rounded-[8.862px] shrink-0" data-node-id="22:734">
+            <div className="overflow-clip relative shrink-0 size-[19.94px]" data-node-id="22:735" data-name="tabler:chevron-right">
+              <div className="absolute bottom-1/4 left-[37.5%] right-[37.5%] top-1/4" data-node-id="I22:735;69:1524" data-name="Vector">
+                <div className="absolute inset-[-5.02%_-10.03%]">
+                  <img alt="" className="block max-w-none size-full" src={imgVector} />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="content-stretch flex h-[88px] items-center justify-between mb-[-2px] px-[18px] py-[4px] relative rounded-[19px] shrink-0 w-full" data-node-id="22:867">
+          <div className="content-stretch flex gap-[13px] items-center relative shrink-0" data-node-id="22:868">
+            <div className="bg-[rgba(255,140,140,0.06)] content-stretch flex items-center p-[13.95px] relative rounded-[23.715px] shrink-0" data-node-id="22:869">
+              <SolarArchiveUpMinimlisticLineDuotone className="overflow-clip relative shrink-0 size-[24px]" />
+            </div>
+            <div className="content-stretch flex flex-col gap-[2.092px] items-start justify-center relative shrink-0" data-node-id="22:873">
+              <div className="content-stretch flex items-center relative shrink-0" data-node-id="22:874">
+                <p className="font-['Zalando_Sans_Expanded:Medium',sans-serif] leading-[normal] not-italic relative shrink-0 text-[#9d998a] text-[14px] whitespace-nowrap" data-node-id="22:875">
+                  Nova Despesa
+                </p>
+              </div>
+              <div className="content-stretch flex items-center relative shrink-0" data-node-id="22:876">
+                <p className="font-['Zalando_Sans_Expanded:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[12.552px] text-[rgba(198,194,179,0.7)] whitespace-nowrap" data-node-id="22:877">
+                  Adicionar novo Recebimento
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="content-stretch flex items-center p-[4.431px] relative rounded-[8.862px] shrink-0" data-node-id="22:878">
+            <div className="overflow-clip relative shrink-0 size-[19.94px]" data-node-id="22:879" data-name="tabler:chevron-right">
+              <div className="absolute bottom-1/4 left-[37.5%] right-[37.5%] top-1/4" data-node-id="I22:879;69:1524" data-name="Vector">
+                <div className="absolute inset-[-5.02%_-10.03%]">
+                  <img alt="" className="block max-w-none size-full" src={imgVector} />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="absolute flex h-[1080px] items-center justify-center left-[1088.94px] top-0 w-0">
+        <div className="flex-none rotate-90">
+          <div className="h-0 relative w-[1080px]" data-node-id="22:783">
+            <div className="absolute inset-[-1px_0_0_0]">
+              <img alt="" className="block max-w-none size-full" src={imgLine35} />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="absolute content-stretch flex items-start left-[695.34px] top-[364.78px]" data-node-id="22:832">
+        <div className="content-stretch flex flex-col gap-[8.501px] items-center justify-center relative shrink-0" data-node-id="22:833" data-name="solar:chat-round-line-linear">
+          <div className="bg-[rgba(71,83,95,0.1)] content-stretch flex items-center p-[19.431px] relative rounded-[121.446px] shrink-0" data-node-id="22:834">
+            <div className="overflow-clip relative shrink-0 size-[29.147px]" data-node-id="22:835" data-name="solar:user-linear">
+              <div className="absolute inset-[8.33%_16.67%]" data-node-id="I22:835;22:946" data-name="Group">
+                <div className="absolute inset-[-2.06%_-2.57%]">
+                  <img alt="" className="block max-w-none size-full" src={imgGroup6} />
+                </div>
+              </div>
+            </div>
+          </div>
+          <p className="font-['Zalando_Sans_Expanded:Medium',sans-serif] leading-[1.2] not-italic relative shrink-0 text-[#47535f] text-[12px] text-center w-[68.01px]" data-node-id="22:836">
+            Adicionar Paciente
+          </p>
+        </div>
+      </div>
+      <div className="absolute content-stretch flex items-start left-[785.11px] top-[364.78px]" data-node-id="22:841">
+        <div className="content-stretch flex flex-col gap-[8.501px] items-center justify-center relative shrink-0" data-node-id="22:842" data-name="solar:chat-round-line-linear">
+          <div className="bg-[rgba(71,83,95,0.1)] content-stretch flex items-center p-[19.431px] relative rounded-[121.446px] shrink-0" data-node-id="22:843">
+            <div className="overflow-clip relative shrink-0 size-[29.147px]" data-node-id="22:844" data-name="solar:stethoscope-linear">
+              <div className="absolute inset-[8.33%]" data-node-id="I22:844;22:969" data-name="Group">
+                <div className="absolute inset-[-2.06%]">
+                  <img alt="" className="block max-w-none size-full" src={imgGroup7} />
+                </div>
+              </div>
+            </div>
+          </div>
+          <p className="font-['Zalando_Sans_Expanded:Medium',sans-serif] leading-[1.2] not-italic relative shrink-0 text-[#47535f] text-[12px] text-center w-[105.695px]" data-node-id="22:845">
+            Adicionar Orçamento
+          </p>
+        </div>
+      </div>
+      <div className="absolute h-[104.511px] left-[785.11px] top-[502.71px] w-[105.695px]" data-node-id="22:1045" />
+      <div className="absolute content-stretch flex items-start left-[899.29px] top-[364.78px]" data-node-id="22:850">
+        <div className="content-stretch flex flex-col gap-[8.501px] items-center justify-center relative shrink-0" data-node-id="22:851" data-name="solar:chat-round-line-linear">
+          <div className="bg-[rgba(71,83,95,0.1)] content-stretch flex items-center p-[19.431px] relative rounded-[121.446px] shrink-0" data-node-id="22:852">
+            <div className="overflow-clip relative shrink-0 size-[29.147px]" data-node-id="22:853" data-name="solar:medical-kit-linear">
+              <div className="absolute inset-[8.33%]" data-node-id="I22:853;22:981" data-name="Group">
+                <div className="absolute inset-[-2.06%]">
+                  <img alt="" className="block max-w-none size-full" src={imgGroup8} />
+                </div>
+              </div>
+            </div>
+          </div>
+          <p className="font-['Zalando_Sans_Expanded:Medium',sans-serif] leading-[1.2] not-italic relative shrink-0 text-[#47535f] text-[12px] text-center w-[105.695px]" data-node-id="22:854">
+            Adicionar Fornecedor
+          </p>
+        </div>
+      </div>
+      <p className="absolute font-['Zalando_Sans_Expanded:Light',sans-serif] leading-[normal] left-[692.3px] not-italic text-[#9d998a] text-[18px] top-[186.79px] w-[664.932px]" data-node-id="22:1099">
+        Painel de Ações
+      </p>
+      <p className="absolute font-['Zalando_Sans_Expanded:Medium',sans-serif] leading-[normal] left-[691.82px] not-italic text-[#b0aea4] text-[10px] top-[213.36px] w-[664.932px]" data-node-id="22:1100">{`Acompanhe e organize as movimentações `}</p>
+      <SolarWadOfMoneyLinear className="absolute left-[690.32px] overflow-clip size-[32px] top-[142.42px]" />
+      <div className="absolute content-stretch flex flex-col gap-px items-start left-[1149px] not-italic top-[155.42px] w-[311.51px]" data-node-id="22:1545">
+        <p className="font-['Zalando_Sans_Expanded:Medium',sans-serif] leading-[normal] relative shrink-0 text-[#1e1e1e] text-[14px] w-full" data-node-id="22:1546">
+          Receitas
+        </p>
+        <p className="font-['Zalando_Sans_Expanded:Regular',sans-serif] leading-[20px] relative shrink-0 text-[#9f9f9f] text-[10px] w-full" data-node-id="22:1547">
+          Detalhamento do Mês
+        </p>
+      </div>
+      <div className="absolute content-stretch flex gap-[6px] items-center left-[1667px] top-[146.79px]" data-node-id="22:1088">
+        <div className="bg-[#47535f] content-stretch flex items-center justify-center px-[15px] py-[12px] relative rounded-[33px] shrink-0" data-node-id="22:1089">
+          <p className="font-['Plus_Jakarta_Sans:SemiBold',sans-serif] font-semibold leading-[normal] relative shrink-0 text-[12px] text-white whitespace-nowrap" data-node-id="22:1090">
+            Hoje
+          </p>
+        </div>
+        <div className="border border-[rgba(0,0,0,0.1)] border-solid content-stretch flex items-center justify-center px-[15px] py-[12px] relative rounded-[33px] shrink-0" data-node-id="22:1091">
+          <p className="font-['Plus_Jakarta_Sans:SemiBold',sans-serif] font-semibold leading-[normal] relative shrink-0 text-[12px] text-[rgba(43,43,43,0.51)] whitespace-nowrap" data-node-id="22:1092">
+            Semana
+          </p>
+        </div>
+        <div className="border border-[rgba(0,0,0,0.1)] border-solid content-stretch flex items-center justify-center px-[15px] py-[12px] relative rounded-[33px] shrink-0" data-node-id="22:1093">
+          <p className="font-['Plus_Jakarta_Sans:SemiBold',sans-serif] font-semibold leading-[normal] relative shrink-0 text-[12px] text-[rgba(43,43,43,0.51)] whitespace-nowrap" data-node-id="22:1094">
+            Mês
+          </p>
+        </div>
+      </div>
+      <div className="absolute content-stretch flex flex-col gap-[39px] items-start left-[1155px] top-[228px] w-[713px]" data-node-id="22:1160">
+        <Component1 className="h-[46.569px] relative shrink-0 w-full" />
+        <div className="h-[46.569px] relative shrink-0 w-full" data-node-id="24:518" data-name="Component 2">
+          <div className="absolute content-stretch flex gap-[12.255px] inset-[0_72.56%_0_0] items-center" data-node-id="24:519">
+            <div className="relative shrink-0 size-[55.852px]" data-node-id="24:520">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgEllipse2} />
+            </div>
+            <div className="content-stretch flex flex-col gap-[4.902px] items-start leading-[normal] relative shrink-0 w-[177.697px]" data-node-id="24:521">
+              <p className="font-['DM_Sans:Medium',sans-serif] font-medium min-w-full relative shrink-0 text-[#535353] text-[14px] w-[min-content]" data-node-id="24:522" style={{ fontVariationSettings: "'opsz' 14" }}>
+                Ana Paula Ribeiro
+              </p>
+              <p className="font-['DM_Sans:Regular',sans-serif] font-normal relative shrink-0 text-[#a2a2a2] text-[12px] whitespace-nowrap" data-node-id="24:523" style={{ fontVariationSettings: "'opsz' 14" }}>
+                Lipoaspiração + Abdominoplastia
+              </p>
+            </div>
+            <div className="absolute left-[17.51px] size-[20.833px] top-[12.87px]" data-node-id="24:524" data-name="tabler:building">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgTablerBuilding} />
+            </div>
+          </div>
+          <div className="-translate-x-1/2 -translate-y-1/2 absolute bg-[#fafbf6] content-stretch flex items-center justify-center left-[calc(50%+29.5px)] px-[15px] py-[9.804px] rounded-[28.186px] top-[calc(50%-0.38px)]" data-node-id="24:526">
+            <p className="font-['DM_Sans:Medium',sans-serif] font-medium leading-[normal] relative shrink-0 text-[#bac16e] text-[12px] whitespace-nowrap" data-node-id="24:527" style={{ fontVariationSettings: "'opsz' 14" }}>
+              Parcela 01/03
+            </p>
+          </div>
+          <div className="-translate-x-1/2 absolute bottom-[1.43%] content-stretch flex gap-[12.255px] items-center left-[calc(50%+238px)] top-[10.53%]" data-node-id="24:528">
+            <div className="content-stretch flex flex-col items-end leading-[normal] relative shrink-0 text-right w-[144.434px]" data-node-id="24:529">
+              <p className="font-['DM_Sans:Medium',sans-serif] font-medium relative shrink-0 text-[#5b5b5b] text-[14px] w-full" data-node-id="24:530" style={{ fontVariationSettings: "'opsz' 14" }}>
+                R$ 8.500,00
+              </p>
+              <p className="font-['DM_Sans:Regular',sans-serif] font-normal relative shrink-0 text-[#a2a2a2] text-[12px] w-full" data-node-id="24:531" style={{ fontVariationSettings: "'opsz' 14" }}>
+                01 de Janeiro de 2026
+              </p>
+            </div>
+            <div className="border-[#efefef] border-[1.124px] border-solid content-stretch flex items-center justify-center p-[13.493px] relative rounded-[112.438px] shrink-0 size-[40px]" data-node-id="24:540">
+              <div className="overflow-clip relative shrink-0 size-[18px]" data-node-id="24:541" data-name="solar:file-linear">
+                <div className="absolute inset-[5.21%]" data-node-id="24:542" data-name="Group">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgGroup9} />
+                </div>
+              </div>
+            </div>
+            <div className="content-stretch flex items-center p-[4.431px] relative rounded-[8.862px] shrink-0" data-node-id="24:534">
+              <div className="overflow-clip relative shrink-0 size-[19.94px]" data-node-id="24:535" data-name="tabler:chevron-right">
+                <div className="absolute bottom-1/4 left-[37.5%] right-[37.5%] top-1/4" data-node-id="I24:535;69:1524" data-name="Vector">
+                  <div className="absolute inset-[-5.02%_-10.03%]">
+                    <img alt="" className="block max-w-none size-full" src={imgVector} />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="h-[46.569px] relative shrink-0 w-full" data-node-id="22:1161" data-name="Component 3">
+          <div className="absolute content-stretch flex gap-[12.255px] inset-[0_72.56%_0_0] items-center" data-node-id="I22:1161;22:1124">
+            <div className="relative shrink-0 size-[55.852px]" data-node-id="I22:1161;22:1125">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgEllipse2} />
+            </div>
+            <div className="content-stretch flex flex-col gap-[4.902px] items-start leading-[normal] relative shrink-0 w-[177.697px]" data-node-id="I22:1161;22:1126">
+              <p className="font-['DM_Sans:Medium',sans-serif] font-medium min-w-full relative shrink-0 text-[#535353] text-[14px] w-[min-content]" data-node-id="I22:1161;22:1127" style={{ fontVariationSettings: "'opsz' 14" }}>
+                Juliana Costa
+              </p>
+              <p className="font-['DM_Sans:Regular',sans-serif] font-normal relative shrink-0 text-[#a2a2a2] text-[12px] whitespace-nowrap" data-node-id="I22:1161;22:1128" style={{ fontVariationSettings: "'opsz' 14" }}>
+                Rinoplastia • 6x no cartão
+              </p>
+            </div>
+            <div className="absolute left-[17.51px] overflow-clip size-[20px] top-[12.87px]" data-node-id="I22:1161;24:590" data-name="solar:user-linear">
+              <div className="absolute inset-[8.33%_16.67%]" data-node-id="I22:1161;24:591" data-name="Group">
+                <div className="absolute inset-[-3%_-3.75%]">
+                  <img alt="" className="block max-w-none size-full" src={imgGroup10} />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="-translate-x-1/2 -translate-y-1/2 absolute bg-[#fafbf6] content-stretch flex items-center justify-center left-[calc(50%+29.5px)] px-[15px] py-[9.804px] rounded-[28.186px] top-[calc(50%-0.38px)]" data-node-id="I22:1161;22:1131">
+            <p className="font-['DM_Sans:Medium',sans-serif] font-medium leading-[normal] relative shrink-0 text-[#a5c16e] text-[12px] whitespace-nowrap" data-node-id="I22:1161;22:1132" style={{ fontVariationSettings: "'opsz' 14" }}>
+              Pago
+            </p>
+          </div>
+          <div className="-translate-x-1/2 absolute bottom-[1.43%] content-stretch flex gap-[12.255px] items-center left-[calc(50%+238px)] top-[10.53%]" data-node-id="I22:1161;22:1133">
+            <div className="content-stretch flex flex-col items-end leading-[normal] relative shrink-0 text-right w-[144.434px]" data-node-id="I22:1161;22:1134">
+              <p className="font-['DM_Sans:Medium',sans-serif] font-medium relative shrink-0 text-[#5b5b5b] text-[14px] w-full" data-node-id="I22:1161;22:1135" style={{ fontVariationSettings: "'opsz' 14" }}>
+                R$ 3.083,00
+              </p>
+              <p className="font-['DM_Sans:Regular',sans-serif] font-normal relative shrink-0 text-[#a2a2a2] text-[12px] w-full" data-node-id="I22:1161;22:1136" style={{ fontVariationSettings: "'opsz' 14" }}>
+                10 de Junho de 2026
+              </p>
+            </div>
+            <div className="border-[#efefef] border-[1.124px] border-solid content-stretch flex items-center justify-center p-[13.493px] relative rounded-[112.438px] shrink-0 size-[40px]" data-node-id="I22:1161;24:385">
+              <div className="overflow-clip relative shrink-0 size-[18px]" data-node-id="I22:1161;24:386" data-name="solar:export-linear">
+                <div className="absolute inset-[16.67%]" data-node-id="I22:1161;24:386;278:6957" data-name="Group">
+                  <div className="absolute inset-[-6.25%]">
+                    <img alt="" className="block max-w-none size-full" src={imgGroup3} />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="content-stretch flex items-center p-[4.431px] relative rounded-[8.862px] shrink-0" data-node-id="I22:1161;24:421">
+              <div className="overflow-clip relative shrink-0 size-[19.94px]" data-node-id="I22:1161;24:422" data-name="tabler:chevron-right">
+                <div className="absolute bottom-1/4 left-[37.5%] right-[37.5%] top-1/4" data-node-id="I22:1161;24:422;69:1524" data-name="Vector">
+                  <div className="absolute inset-[-5.02%_-10.03%]">
+                    <img alt="" className="block max-w-none size-full" src={imgVector} />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="h-[46.569px] relative shrink-0 w-full" data-node-id="22:1179" data-name="Component 4">
+          <div className="absolute content-stretch flex gap-[12.255px] inset-[0_72.56%_0_0] items-center" data-node-id="I22:1179;22:1124">
+            <div className="relative shrink-0 size-[55.852px]" data-node-id="I22:1179;22:1125">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgEllipse2} />
+            </div>
+            <div className="content-stretch flex flex-col gap-[4.902px] items-start leading-[normal] relative shrink-0 w-[177.697px]" data-node-id="I22:1179;22:1126">
+              <p className="font-['DM_Sans:Medium',sans-serif] font-medium min-w-full relative shrink-0 text-[#535353] text-[14px] w-[min-content]" data-node-id="I22:1179;22:1127" style={{ fontVariationSettings: "'opsz' 14" }}>
+                Maria Silva
+              </p>
+              <p className="font-['DM_Sans:Regular',sans-serif] font-normal relative shrink-0 text-[#a2a2a2] text-[12px] whitespace-nowrap" data-node-id="I22:1179;22:1128" style={{ fontVariationSettings: "'opsz' 14" }}>
+                Rinoplastia Estética
+              </p>
+            </div>
+            <div className="absolute left-[17.51px] overflow-clip size-[20px] top-[12.87px]" data-node-id="I22:1179;24:590" data-name="solar:user-linear">
+              <div className="absolute inset-[8.33%_16.67%]" data-node-id="I22:1179;24:591" data-name="Group">
+                <div className="absolute inset-[-4.5%_-5.63%]">
+                  <img alt="" className="block max-w-none size-full" src={imgGroup2} />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="-translate-x-1/2 -translate-y-1/2 absolute bg-[#fafbf6] content-stretch flex items-center justify-center left-[calc(50%+29.5px)] px-[15px] py-[9.804px] rounded-[28.186px] top-[calc(50%-0.38px)]" data-node-id="I22:1179;22:1131">
+            <p className="font-['DM_Sans:Medium',sans-serif] font-medium leading-[normal] relative shrink-0 text-[#a5c16e] text-[12px] whitespace-nowrap" data-node-id="I22:1179;22:1132" style={{ fontVariationSettings: "'opsz' 14" }}>
+              Pago
+            </p>
+          </div>
+          <div className="-translate-x-1/2 absolute bottom-[1.43%] content-stretch flex gap-[12.255px] items-center left-[calc(50%+238px)] top-[10.53%]" data-node-id="I22:1179;22:1133">
+            <div className="content-stretch flex flex-col items-end leading-[normal] relative shrink-0 text-right w-[144.434px]" data-node-id="I22:1179;22:1134">
+              <p className="font-['DM_Sans:Medium',sans-serif] font-medium relative shrink-0 text-[#5b5b5b] text-[14px] w-full" data-node-id="I22:1179;22:1135" style={{ fontVariationSettings: "'opsz' 14" }}>
+                R$ 18.500,00
+              </p>
+              <p className="font-['DM_Sans:Regular',sans-serif] font-normal relative shrink-0 text-[#a2a2a2] text-[12px] w-full" data-node-id="I22:1179;22:1136" style={{ fontVariationSettings: "'opsz' 14" }}>
+                01 de Janeiro de 2026
+              </p>
+            </div>
+            <div className="border-[#efefef] border-[1.124px] border-solid content-stretch flex items-center justify-center p-[13.493px] relative rounded-[112.438px] shrink-0 size-[40px]" data-node-id="I22:1179;24:385">
+              <div className="overflow-clip relative shrink-0 size-[18px]" data-node-id="I22:1179;24:386" data-name="solar:export-linear">
+                <div className="absolute inset-[16.67%]" data-node-id="I22:1179;24:386;278:6957" data-name="Group">
+                  <div className="absolute inset-[-6.25%]">
+                    <img alt="" className="block max-w-none size-full" src={imgGroup3} />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="content-stretch flex items-center p-[4.431px] relative rounded-[8.862px] shrink-0" data-node-id="I22:1179;24:421">
+              <div className="overflow-clip relative shrink-0 size-[19.94px]" data-node-id="I22:1179;24:422" data-name="tabler:chevron-right">
+                <div className="absolute bottom-1/4 left-[37.5%] right-[37.5%] top-1/4" data-node-id="I22:1179;24:422;69:1524" data-name="Vector">
+                  <div className="absolute inset-[-5.02%_-10.03%]">
+                    <img alt="" className="block max-w-none size-full" src={imgVector} />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="absolute content-stretch flex flex-col h-[38px] items-start justify-between left-[1155px] not-italic top-[598px] w-[691px]" data-node-id="22:1539">
+        <p className="font-['Zalando_Sans_Expanded:Medium',sans-serif] leading-[normal] relative shrink-0 text-[#1e1e1e] text-[14px] w-full" data-node-id="22:1540">
+          Despesas
+        </p>
+        <p className="font-['Zalando_Sans_Expanded:Regular',sans-serif] leading-[20px] relative shrink-0 text-[#9f9f9f] text-[10px] w-full" data-node-id="22:1541">
+          Detalhamento do Mês
+        </p>
+      </div>
+      <div className="absolute h-[46.569px] left-[1155px] top-[673px] w-[691px]" data-node-id="24:443" data-name="Component 1">
+        <div className="absolute content-stretch flex gap-[12.255px] inset-[0_72.56%_0_0] items-center" data-node-id="24:444">
+          <div className="relative shrink-0 size-[55.852px]" data-node-id="24:445">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgEllipse2} />
+          </div>
+          <div className="content-stretch flex flex-col gap-[4.902px] items-start leading-[normal] relative shrink-0 w-[177.697px]" data-node-id="24:446">
+            <p className="font-['DM_Sans:Medium',sans-serif] font-medium relative shrink-0 text-[#535353] text-[14px] w-full" data-node-id="24:447" style={{ fontVariationSettings: "'opsz' 14" }}>
+              OPME Brasil Ltda
+            </p>
+            <p className="font-['DM_Sans:Regular',sans-serif] font-normal relative shrink-0 text-[#a2a2a2] text-[12px] w-full" data-node-id="24:448" style={{ fontVariationSettings: "'opsz' 14" }}>
+              Detalhes da Transação
+            </p>
+          </div>
+          <div className="absolute left-[17.51px] size-[20.833px] top-[12.87px]" data-node-id="24:449" data-name="tabler:building">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgTablerBuilding} />
+          </div>
+        </div>
+        <div className="-translate-x-1/2 -translate-y-1/2 absolute bg-[#fafbf6] content-stretch flex items-center justify-center left-[calc(50%+29.5px)] px-[15px] py-[9.804px] rounded-[28.186px] top-[calc(50%-0.38px)]" data-node-id="24:451">
+          <p className="font-['DM_Sans:Medium',sans-serif] font-medium leading-[normal] relative shrink-0 text-[#a5c16e] text-[12px] whitespace-nowrap" data-node-id="24:452" style={{ fontVariationSettings: "'opsz' 14" }}>
+            Pago
+          </p>
+        </div>
+        <div className="-translate-x-1/2 absolute bottom-[1.43%] content-stretch flex gap-[12.255px] items-center left-[calc(50%+238px)] top-[10.53%]" data-node-id="24:453">
+          <div className="content-stretch flex flex-col items-end leading-[normal] relative shrink-0 text-right w-[144.434px]" data-node-id="24:454">
+            <p className="font-['DM_Sans:Medium',sans-serif] font-medium relative shrink-0 text-[#5b5b5b] text-[14px] w-full" data-node-id="24:455" style={{ fontVariationSettings: "'opsz' 14" }}>
+              R$ 628,00
+            </p>
+            <p className="font-['DM_Sans:Regular',sans-serif] font-normal relative shrink-0 text-[#a2a2a2] text-[12px] w-full" data-node-id="24:456" style={{ fontVariationSettings: "'opsz' 14" }}>
+              25 de Maio de 2026
+            </p>
+          </div>
+          <div className="border-[#efefef] border-[1.124px] border-solid content-stretch flex items-center justify-center p-[13.493px] relative rounded-[112.438px] shrink-0 size-[40px]" data-node-id="24:457">
+            <div className="overflow-clip relative shrink-0 size-[18px]" data-node-id="24:458" data-name="solar:export-linear">
+              <div className="absolute inset-[16.67%]" data-node-id="I24:458;278:6957" data-name="Group">
+                <div className="absolute inset-[-6.25%]">
+                  <img alt="" className="block max-w-none size-full" src={imgGroup3} />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="content-stretch flex items-center p-[4.431px] relative rounded-[8.862px] shrink-0" data-node-id="24:459">
+            <div className="overflow-clip relative shrink-0 size-[19.94px]" data-node-id="24:460" data-name="tabler:chevron-right">
+              <div className="absolute bottom-1/4 left-[37.5%] right-[37.5%] top-1/4" data-node-id="I24:460;69:1524" data-name="Vector">
+                <div className="absolute inset-[-5.02%_-10.03%]">
+                  <img alt="" className="block max-w-none size-full" src={imgVector} />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="absolute h-[46.569px] left-[1155px] top-[758.57px] w-[691px]" data-node-id="24:461" data-name="Component 2">
+        <div className="absolute content-stretch flex gap-[12.255px] inset-[0_72.56%_0_0] items-center" data-node-id="24:462">
+          <div className="relative shrink-0 size-[55.852px]" data-node-id="24:463">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgEllipse2} />
+          </div>
+          <div className="content-stretch flex flex-col gap-[4.902px] items-start leading-[normal] relative shrink-0 w-[177.697px]" data-node-id="24:464">
+            <p className="font-['DM_Sans:Medium',sans-serif] font-medium relative shrink-0 text-[#535353] text-[14px] w-full" data-node-id="24:465" style={{ fontVariationSettings: "'opsz' 14" }}>
+              ImplantTech Medical
+            </p>
+            <p className="font-['DM_Sans:Regular',sans-serif] font-normal relative shrink-0 text-[#a2a2a2] text-[12px] w-full" data-node-id="24:466" style={{ fontVariationSettings: "'opsz' 14" }}>
+              Detalhes da Transação
+            </p>
+          </div>
+          <div className="absolute left-[17.51px] size-[20.833px] top-[12.87px]" data-node-id="24:467" data-name="tabler:building">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgTablerBuilding} />
+          </div>
+        </div>
+        <div className="-translate-x-1/2 -translate-y-1/2 absolute bg-[#fafbf6] content-stretch flex items-center justify-center left-[calc(50%+29.5px)] px-[15px] py-[9.804px] rounded-[28.186px] top-[calc(50%-0.38px)]" data-node-id="24:469">
+          <p className="font-['DM_Sans:Medium',sans-serif] font-medium leading-[normal] relative shrink-0 text-[#c1b26e] text-[12px] whitespace-nowrap" data-node-id="24:470" style={{ fontVariationSettings: "'opsz' 14" }}>
+            Agendado
+          </p>
+        </div>
+        <div className="-translate-x-1/2 absolute bottom-[1.43%] content-stretch flex gap-[12.255px] items-center left-[calc(50%+238px)] top-[10.53%]" data-node-id="24:471">
+          <div className="content-stretch flex flex-col items-end leading-[normal] relative shrink-0 text-right w-[144.434px]" data-node-id="24:472">
+            <p className="font-['DM_Sans:Medium',sans-serif] font-medium relative shrink-0 text-[#5b5b5b] text-[14px] w-full" data-node-id="24:473" style={{ fontVariationSettings: "'opsz' 14" }}>
+              R$ 1.980,00
+            </p>
+            <p className="font-['DM_Sans:Regular',sans-serif] font-normal relative shrink-0 text-[#a2a2a2] text-[12px] w-full" data-node-id="24:474" style={{ fontVariationSettings: "'opsz' 14" }}>
+              25 de Maio de 2026
+            </p>
+          </div>
+          <div className="border-[#efefef] border-[1.124px] border-solid content-stretch flex items-center justify-center p-[13.493px] relative rounded-[112.438px] shrink-0 size-[40px]" data-node-id="24:475">
+            <div className="overflow-clip relative shrink-0 size-[18px]" data-node-id="24:513" data-name="solar:file-linear">
+              <div className="absolute inset-[5.21%]" data-node-id="24:514" data-name="Group">
+                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgGroup9} />
+              </div>
+            </div>
+          </div>
+          <div className="content-stretch flex items-center p-[4.431px] relative rounded-[8.862px] shrink-0" data-node-id="24:477">
+            <div className="overflow-clip relative shrink-0 size-[19.94px]" data-node-id="24:478" data-name="tabler:chevron-right">
+              <div className="absolute bottom-1/4 left-[37.5%] right-[37.5%] top-1/4" data-node-id="I24:478;69:1524" data-name="Vector">
+                <div className="absolute inset-[-5.02%_-10.03%]">
+                  <img alt="" className="block max-w-none size-full" src={imgVector} />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="absolute h-[46.569px] left-[1155px] top-[844.14px] w-[691px]" data-node-id="24:479" data-name="Component 3">
+        <div className="absolute content-stretch flex gap-[12.255px] inset-[0_72.56%_0_0] items-center" data-node-id="24:480">
+          <div className="relative shrink-0 size-[55.852px]" data-node-id="24:481">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgEllipse2} />
+          </div>
+          <div className="content-stretch flex flex-col gap-[4.902px] items-start leading-[normal] relative shrink-0 w-[177.697px]" data-node-id="24:482">
+            <p className="font-['DM_Sans:Medium',sans-serif] font-medium min-w-full relative shrink-0 text-[#535353] text-[14px] w-[min-content]" data-node-id="24:483" style={{ fontVariationSettings: "'opsz' 14" }}>
+              Cirúrgica São Lucas
+            </p>
+            <p className="font-['DM_Sans:Regular',sans-serif] font-normal relative shrink-0 text-[#a2a2a2] text-[12px] w-[218.813px]" data-node-id="24:484" style={{ fontVariationSettings: "'opsz' 14" }}>
+              Luvas, Campos, Fios de Sutura
+            </p>
+          </div>
+          <div className="absolute left-[17.51px] size-[20.833px] top-[12.87px]" data-node-id="24:485" data-name="tabler:building">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgTablerBuilding} />
+          </div>
+        </div>
+        <div className="-translate-x-1/2 -translate-y-1/2 absolute bg-[rgba(193,132,110,0.1)] content-stretch flex items-center justify-center left-[calc(50%+29.5px)] px-[15px] py-[9.804px] rounded-[28.186px] top-[calc(50%-0.38px)]" data-node-id="24:487">
+          <p className="font-['DM_Sans:Medium',sans-serif] font-medium leading-[normal] relative shrink-0 text-[#c1846e] text-[12px] whitespace-nowrap" data-node-id="24:488" style={{ fontVariationSettings: "'opsz' 14" }}>
+            Atrasado
+          </p>
+        </div>
+        <div className="-translate-x-1/2 absolute bottom-[1.43%] content-stretch flex gap-[12.255px] items-center left-[calc(50%+238px)] top-[10.53%]" data-node-id="24:489">
+          <div className="content-stretch flex flex-col items-end leading-[normal] relative shrink-0 text-right w-[144.434px]" data-node-id="24:490">
+            <p className="font-['DM_Sans:Medium',sans-serif] font-medium relative shrink-0 text-[#5b5b5b] text-[14px] w-full" data-node-id="24:491" style={{ fontVariationSettings: "'opsz' 14" }}>
+              R$ 628,00
+            </p>
+            <p className="font-['DM_Sans:Regular',sans-serif] font-normal relative shrink-0 text-[#a2a2a2] text-[12px] w-full" data-node-id="24:492" style={{ fontVariationSettings: "'opsz' 14" }}>
+              25 de Maio de 2026
+            </p>
+          </div>
+          <div className="border-[#efefef] border-[1.124px] border-solid content-stretch flex items-center justify-center p-[13.493px] relative rounded-[112.438px] shrink-0 size-[40px]" data-node-id="24:493">
+            <div className="overflow-clip relative shrink-0 size-[18px]" data-node-id="24:494" data-name="solar:export-linear">
+              <div className="absolute inset-[16.67%]" data-node-id="I24:494;278:6957" data-name="Group">
+                <div className="absolute inset-[-6.25%]">
+                  <img alt="" className="block max-w-none size-full" src={imgGroup3} />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="content-stretch flex items-center p-[4.431px] relative rounded-[8.862px] shrink-0" data-node-id="24:495">
+            <div className="overflow-clip relative shrink-0 size-[19.94px]" data-node-id="24:496" data-name="tabler:chevron-right">
+              <div className="absolute bottom-1/4 left-[37.5%] right-[37.5%] top-1/4" data-node-id="I24:496;69:1524" data-name="Vector">
+                <div className="absolute inset-[-5.02%_-10.03%]">
+                  <img alt="" className="block max-w-none size-full" src={imgVector} />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="absolute border border-[#e5e5e5] border-solid h-[46.605px] left-[695.46px] rounded-[23.302px] top-[271.62px] w-[92.529px]" data-node-id="24:546" />
+      <div className="absolute left-[711.82px] overflow-clip size-[21px] top-[284.42px]" data-node-id="24:554" data-name="solar:stethoscope-linear">
+        <div className="absolute inset-[8.33%]" data-node-id="I24:554;22:969" data-name="Group">
+          <div className="absolute inset-[-2.86%_-2.86%_-2.85%_-2.86%]">
+            <img alt="" className="block max-w-none size-full" src={imgGroup11} />
+          </div>
+        </div>
+      </div>
+      <div className="absolute bg-[#ff9898] content-stretch flex items-center justify-center left-[743.92px] p-[5px] rounded-[13px] top-[283.42px]" data-node-id="24:561">
+        <p className="font-['Zalando_Sans_Expanded:SemiBold',sans-serif] leading-[normal] not-italic relative shrink-0 text-[10px] text-white whitespace-nowrap" data-node-id="24:562">
+          05
+        </p>
+      </div>
+      <div className="absolute border border-[#e5e5e5] border-solid h-[46.605px] left-[800.19px] rounded-[23.302px] top-[271.12px] w-[92.529px]" data-node-id="24:564" />
+      <div className="absolute left-[817.07px] overflow-clip size-[22px] top-[282.92px]" data-node-id="24:574" data-name="solar:medical-kit-linear">
+        <div className="absolute inset-[8.33%]" data-node-id="I24:574;22:981" data-name="Group">
+          <div className="absolute inset-[-2.73%]">
+            <img alt="" className="block max-w-none size-full" src={imgGroup12} />
+          </div>
+        </div>
+      </div>
+      <div className="absolute bg-[#ff9898] content-stretch flex items-center justify-center left-[848.65px] p-[5px] rounded-[13px] top-[282.92px]" data-node-id="24:566">
+        <p className="font-['Zalando_Sans_Expanded:SemiBold',sans-serif] leading-[normal] not-italic relative shrink-0 text-[10px] text-white whitespace-nowrap" data-node-id="24:567">
+          12
+        </p>
+      </div>
+      <div className="absolute bg-[rgba(95,120,142,0.25)] h-[1080.056px] left-[217.21px] top-[-0.1px] w-[387.023px]" data-node-id="108:6832" />
+      <div className="absolute content-stretch flex flex-col gap-[49px] items-start left-[307.99px] top-[162.7px] w-[303px]" data-node-id="108:6833">
+        <Frame427322282 className="content-stretch flex items-center justify-between relative shrink-0 w-full" />
+        <div className="content-stretch flex items-center justify-between relative shrink-0 w-full" data-node-id="108:6835">
+          <div className="content-stretch flex flex-col gap-[2px] items-start leading-[normal] relative shrink-0 whitespace-nowrap" data-node-id="I108:6835;66:1409">
+            <p className="font-['Zalando_Sans_Expanded:Regular',sans-serif] not-italic relative shrink-0 text-[#47535f] text-[14px]" data-node-id="I108:6835;66:1168">
+              Materiais
+            </p>
+            <p className="font-['Plus_Jakarta_Sans:Medium',sans-serif] font-medium relative shrink-0 text-[12px] text-[rgba(71,83,95,0.47)]" data-node-id="I108:6835;66:1169">{`Acompanhe e organize as movimentações `}</p>
+          </div>
+          <div className="relative shrink-0 size-[18px]" data-node-id="I108:6835;96:4430" data-name="solar:alt-arrow-right-linear">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgSolarAltArrowRightLinear} />
+          </div>
+        </div>
+        <div className="content-stretch flex items-center justify-between relative shrink-0 w-full" data-node-id="108:6836">
+          <div className="content-stretch flex flex-col gap-[2px] items-start leading-[normal] relative shrink-0 whitespace-nowrap" data-node-id="I108:6836;66:1409">
+            <p className="font-['Zalando_Sans_Expanded:Regular',sans-serif] not-italic relative shrink-0 text-[#47535f] text-[14px]" data-node-id="I108:6836;66:1168">
+              Campos e Aventais
+            </p>
+            <p className="font-['Plus_Jakarta_Sans:Medium',sans-serif] font-medium relative shrink-0 text-[12px] text-[rgba(71,83,95,0.47)]" data-node-id="I108:6836;66:1169">{`Acompanhe e organize as movimentações `}</p>
+          </div>
+          <div className="relative shrink-0 size-[18px]" data-node-id="I108:6836;96:4430" data-name="solar:alt-arrow-right-linear">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgSolarAltArrowRightLinear} />
+          </div>
+        </div>
+        <div className="content-stretch flex items-center justify-between relative shrink-0 w-full" data-node-id="108:6837">
+          <div className="content-stretch flex flex-col gap-[2px] items-start leading-[normal] relative shrink-0 whitespace-nowrap" data-node-id="I108:6837;66:1409">
+            <p className="font-['Zalando_Sans_Expanded:Regular',sans-serif] not-italic relative shrink-0 text-[#47535f] text-[14px]" data-node-id="I108:6837;66:1168">
+              Fios
+            </p>
+            <p className="font-['Plus_Jakarta_Sans:Medium',sans-serif] font-medium relative shrink-0 text-[12px] text-[rgba(71,83,95,0.47)]" data-node-id="I108:6837;66:1169">{`Acompanhe e organize as movimentações `}</p>
+          </div>
+          <div className="relative shrink-0 size-[18px]" data-node-id="I108:6837;96:4430" data-name="solar:alt-arrow-right-linear">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgSolarAltArrowRightLinear} />
+          </div>
+        </div>
+        <div className="content-stretch flex items-center justify-between relative shrink-0 w-full" data-node-id="108:6838">
+          <div className="content-stretch flex flex-col gap-[2px] items-start leading-[normal] relative shrink-0 whitespace-nowrap" data-node-id="I108:6838;66:1409">
+            <p className="font-['Zalando_Sans_Expanded:Regular',sans-serif] not-italic relative shrink-0 text-[#47535f] text-[14px]" data-node-id="I108:6838;66:1168">
+              Curativos
+            </p>
+            <p className="font-['Plus_Jakarta_Sans:Medium',sans-serif] font-medium relative shrink-0 text-[12px] text-[rgba(71,83,95,0.47)]" data-node-id="I108:6838;66:1169">{`Acompanhe e organize as movimentações `}</p>
+          </div>
+          <div className="relative shrink-0 size-[18px]" data-node-id="I108:6838;96:4430" data-name="solar:alt-arrow-right-linear">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgSolarAltArrowRightLinear} />
+          </div>
+        </div>
+        <div className="content-stretch flex items-center justify-between relative shrink-0 w-full" data-node-id="108:6839">
+          <div className="content-stretch flex flex-col gap-[2px] items-start leading-[normal] relative shrink-0 whitespace-nowrap" data-node-id="I108:6839;66:1409">
+            <p className="font-['Zalando_Sans_Expanded:Regular',sans-serif] not-italic relative shrink-0 text-[#47535f] text-[14px]" data-node-id="I108:6839;66:1168">
+              Assepsia
+            </p>
+            <p className="font-['Plus_Jakarta_Sans:Medium',sans-serif] font-medium relative shrink-0 text-[12px] text-[rgba(71,83,95,0.47)]" data-node-id="I108:6839;66:1169">{`Acompanhe e organize as movimentações `}</p>
+          </div>
+          <div className="relative shrink-0 size-[18px]" data-node-id="I108:6839;96:4430" data-name="solar:alt-arrow-right-linear">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgSolarAltArrowRightLinear} />
+          </div>
+        </div>
+        <div className="content-stretch flex items-center justify-between relative shrink-0 w-full" data-node-id="108:6840">
+          <div className="content-stretch flex flex-col gap-[2px] items-start leading-[normal] relative shrink-0 whitespace-nowrap" data-node-id="I108:6840;66:1409">
+            <p className="font-['Zalando_Sans_Expanded:Regular',sans-serif] not-italic relative shrink-0 text-[#47535f] text-[14px]" data-node-id="I108:6840;66:1168">
+              Soluções
+            </p>
+            <p className="font-['Plus_Jakarta_Sans:Medium',sans-serif] font-medium relative shrink-0 text-[12px] text-[rgba(71,83,95,0.47)]" data-node-id="I108:6840;66:1169">{`Acompanhe e organize as movimentações `}</p>
+          </div>
+          <div className="relative shrink-0 size-[18px]" data-node-id="I108:6840;96:4430" data-name="solar:alt-arrow-right-linear">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgSolarAltArrowRightLinear} />
+          </div>
+        </div>
+        <div className="content-stretch flex items-center justify-between relative shrink-0 w-full" data-node-id="108:6841">
+          <div className="content-stretch flex flex-col gap-[2px] items-start leading-[normal] relative shrink-0 whitespace-nowrap" data-node-id="I108:6841;66:1409">
+            <p className="font-['Zalando_Sans_Expanded:Regular',sans-serif] not-italic relative shrink-0 text-[#47535f] text-[14px]" data-node-id="I108:6841;66:1168">
+              CME
+            </p>
+            <p className="font-['Plus_Jakarta_Sans:Medium',sans-serif] font-medium relative shrink-0 text-[12px] text-[rgba(71,83,95,0.47)]" data-node-id="I108:6841;66:1169">{`Acompanhe e organize as movimentações `}</p>
+          </div>
+          <div className="relative shrink-0 size-[18px]" data-node-id="I108:6841;96:4430" data-name="solar:alt-arrow-right-linear">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgSolarAltArrowRightLinear} />
+          </div>
+        </div>
+        <div className="content-stretch flex items-center justify-between relative shrink-0 w-full" data-node-id="108:6842">
+          <div className="content-stretch flex flex-col gap-[2px] items-start leading-[normal] relative shrink-0 whitespace-nowrap" data-node-id="I108:6842;66:1409">
+            <p className="font-['Zalando_Sans_Expanded:Regular',sans-serif] not-italic relative shrink-0 text-[#47535f] text-[14px]" data-node-id="I108:6842;66:1168">
+              Gases Medicinais
+            </p>
+            <p className="font-['Plus_Jakarta_Sans:Medium',sans-serif] font-medium relative shrink-0 text-[12px] text-[rgba(71,83,95,0.47)]" data-node-id="I108:6842;66:1169">{`Acompanhe e organize as movimentações `}</p>
+          </div>
+          <div className="relative shrink-0 size-[18px]" data-node-id="I108:6842;96:4430" data-name="solar:alt-arrow-right-linear">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgSolarAltArrowRightLinear} />
+          </div>
+        </div>
+      </div>
+      <div className="absolute content-stretch flex flex-col gap-px items-start left-[307.99px] not-italic text-[12px] top-[46.7px] w-[311.51px]" data-node-id="108:6843">
+        <p className="font-['Zalando_Sans_Expanded:Medium',sans-serif] leading-[normal] relative shrink-0 text-[#1e1e1e] w-full" data-node-id="108:6844">
+          Insumos
+        </p>
+        <p className="font-['Zalando_Sans_Expanded:Regular',sans-serif] leading-[20px] relative shrink-0 text-[#47535f] w-full" data-node-id="108:6845">
+          Listagem de todos os insumos
+        </p>
+      </div>
+      <div className="absolute bg-[#47535f] h-[1080.056px] left-0 top-[-0.1px] w-[604.237px]" data-node-id="108:6846" />
+      <div className="absolute content-stretch flex flex-col items-start left-[144.77px] top-[950.34px] w-[167.5px]" data-node-id="110:1779">
+        <div className="content-stretch flex flex-col gap-[10px] items-start relative shrink-0" data-node-id="110:1780">
+          <div className="h-[28px] relative shrink-0 w-[56px]" data-node-id="110:1781">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgFrame427322001} />
+          </div>
+          <div className="content-stretch flex flex-col gap-[2px] items-start justify-center relative shrink-0 text-[12px]" data-node-id="110:1785">
+            <div className="flex flex-col font-['DM_Sans:SemiBold',sans-serif] font-semibold justify-center leading-[0] relative shrink-0 text-[#c2d5e8] text-center whitespace-nowrap" data-node-id="110:1786" style={{ fontVariationSettings: "'opsz' 14" }}>
+              <p className="leading-[normal]">05 Pacientes</p>
+            </div>
+            <p className="font-['DM_Sans:Regular',sans-serif] font-normal leading-[1.111] relative shrink-0 text-[#8494a3] whitespace-pre" data-node-id="110:1787" style={{ fontVariationSettings: "'opsz' 14" }}>{`Adriana Goes + 5  Pacientes`}</p>
+          </div>
+        </div>
+      </div>
+      <div className="absolute content-stretch flex flex-col items-start left-[376.12px] top-[950.34px] w-[167.5px]" data-node-id="110:1788">
+        <div className="content-stretch flex flex-col gap-[10px] items-start relative shrink-0" data-node-id="110:1789">
+          <div className="h-[28px] relative shrink-0 w-[56px]" data-node-id="110:1790">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgFrame427322001} />
+          </div>
+          <div className="content-stretch flex flex-col gap-[2px] items-start justify-center relative shrink-0 text-[12px] whitespace-nowrap" data-node-id="110:1794">
+            <div className="flex flex-col font-['DM_Sans:SemiBold',sans-serif] font-semibold justify-center leading-[0] relative shrink-0 text-[#c2d5e8] text-center" data-node-id="110:1795" style={{ fontVariationSettings: "'opsz' 14" }}>
+              <p className="leading-[normal]">12 Fornecedores</p>
+            </div>
+            <p className="font-['DM_Sans:Regular',sans-serif] font-normal leading-[1.111] relative shrink-0 text-[#8494a3]" data-node-id="110:1796" style={{ fontVariationSettings: "'opsz' 14" }}>
+              Medekit e outros 5 Pacientes
+            </p>
+          </div>
+        </div>
+      </div>
+      <p className="absolute font-['Zalando_Sans_Expanded:Medium',sans-serif] h-[13.798px] leading-[0] left-[142px] not-italic text-[0px] text-[rgba(194,213,232,0.55)] top-[649.65px] w-[303.456px]" data-node-id="110:1797">
+        <span className="leading-[normal] text-[12px]">{`Recebido até `}</span>
+        <span className="leading-[normal] text-[12px]">o momento</span>
+        <span className="leading-[normal] text-[12px]">{` de`}</span>
+        <span className="leading-[normal] text-[#c2d5e8] text-[12px]">{` R$84.982,00 `}</span>
+      </p>
+      <div className="absolute bg-[rgba(0,183,255,0.2)] content-stretch flex items-center justify-center left-[434.26px] p-[10.182px] rounded-[11.2px] top-[379.64px]" data-node-id="110:1798">
+        <p className="font-['Zalando_Sans_Expanded:Medium',sans-serif] leading-[normal] not-italic relative shrink-0 text-[#00b7ff] text-[10.182px] whitespace-nowrap" data-node-id="110:1799">
+          Aumentou 16%
+        </p>
+      </div>
+      <p className="absolute font-['Zalando_Sans_Expanded:Regular',sans-serif] h-[27.597px] leading-[normal] left-[142px] not-italic text-[#c2d5e8] text-[26.57px] top-[609.66px] w-[261.415px]" data-node-id="110:1800">
+        R$ 59.000,00
+      </p>
+      <p className="absolute font-['Zalando_Sans_Expanded:Regular',sans-serif] h-[27.597px] leading-[normal] left-[142px] not-italic text-[#c2d5e8] text-[16px] top-[825.34px] w-[181.931px]" data-node-id="110:1801">
+        R$ 54.352,45
+      </p>
+      <p className="absolute font-['Zalando_Sans_Expanded:Regular',sans-serif] h-[27.597px] leading-[normal] left-[384.39px] not-italic text-[#c2d5e8] text-[16px] top-[823.32px] w-[181.931px]" data-node-id="110:1802">
+        R$ 14.352,45
+      </p>
+      <p className="absolute font-['Zalando_Sans_Expanded:Medium',sans-serif] leading-[normal] left-[384.39px] not-italic text-[10px] text-[rgba(194,213,232,0.5)] top-[846.47px] whitespace-nowrap" data-node-id="110:1803">
+        Total 9.333,49
+      </p>
+      <p className="absolute font-['Zalando_Sans_Expanded:Medium',sans-serif] leading-[normal] left-[142px] not-italic text-[10px] text-[rgba(194,213,232,0.5)] top-[848.49px] w-[92px]" data-node-id="110:1804">
+        Total 12.093,49
+      </p>
+      <div className="absolute border border-[rgba(139,154,170,0.25)] border-solid left-[501.7px] rounded-[17px] size-[43px] top-[613.16px]" data-node-id="110:1805" />
+      <div className="absolute left-[512.7px] size-[21px] top-[624.16px]" data-node-id="110:1806" data-name="solar:arrow-right-up-linear">
+        <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgSolarArrowRightUpLinear} />
+      </div>
+      <div className="absolute content-stretch flex flex-col gap-px items-start left-[142px] not-italic top-[382.85px] w-[311.51px]" data-node-id="110:1808">
+        <p className="font-['Zalando_Sans_Expanded:Medium',sans-serif] leading-[normal] relative shrink-0 text-[#c2d5e8] text-[14px] w-full" data-node-id="110:1809">
+          Faturamento do Mês
+        </p>
+        <p className="font-['Zalando_Sans_Expanded:Regular',sans-serif] leading-[20px] relative shrink-0 text-[#a0acb9] text-[10px] w-full" data-node-id="110:1810">
+          Detalhamento do Mês
+        </p>
+      </div>
+      <p className="absolute font-['Zalando_Sans_Expanded:Medium',sans-serif] leading-[normal] left-[384.39px] not-italic text-[#8b9aaa] text-[12px] top-[801.27px] w-[311.51px]" data-node-id="110:1811">
+        Despesas
+      </p>
+      <p className="absolute font-['Zalando_Sans_Expanded:Medium',sans-serif] leading-[normal] left-[142px] not-italic text-[#8b9aaa] text-[12px] top-[802.11px] w-[311.51px]" data-node-id="110:1812">
+        Receitas
+      </p>
+      <div className="absolute flex h-[108.965px] items-center justify-center left-[142.49px] top-[458.49px] w-0">
+        <div className="-rotate-90 flex-none">
+          <div className="h-0 relative w-[108.965px]" data-node-id="110:1813">
+            <div className="absolute inset-[-1px_0_0_0]">
+              <img alt="" className="block max-w-none size-full" src={imgLine1} />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="absolute flex h-[18.863px] items-center justify-center left-[158.08px] top-[548.59px] w-0">
+        <div className="-rotate-90 flex-none">
+          <div className="h-0 relative w-[18.863px]" data-node-id="110:1814">
+            <div className="absolute inset-[-1px_0_0_0]">
+              <img alt="" className="block max-w-none size-full" src={imgLine17} />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="absolute flex h-[98.664px] items-center justify-center left-[171.39px] top-[468.79px] w-0">
+        <div className="-rotate-90 flex-none">
+          <div className="h-0 relative w-[98.664px]" data-node-id="110:1815">
+            <div className="absolute inset-[-1px_0_0_0]">
+              <img alt="" className="block max-w-none size-full" src={imgLine33} />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="absolute flex h-[98.664px] items-center justify-center left-[184.7px] top-[468.79px] w-0">
+        <div className="-rotate-90 flex-none">
+          <div className="h-0 relative w-[98.664px]" data-node-id="110:1816">
+            <div className="absolute inset-[-1px_0_0_0]">
+              <img alt="" className="block max-w-none size-full" src={imgLine33} />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="absolute flex h-[108.965px] items-center justify-center left-[198.02px] top-[458.49px] w-0">
+        <div className="-rotate-90 flex-none">
+          <div className="h-0 relative w-[108.965px]" data-node-id="110:1817">
+            <div className="absolute inset-[-1px_0_0_0]">
+              <img alt="" className="block max-w-none size-full" src={imgLine1} />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="absolute flex h-[103.543px] items-center justify-center left-[211.33px] top-[463.91px] w-0">
+        <div className="-rotate-90 flex-none">
+          <div className="h-0 relative w-[103.543px]" data-node-id="110:1818">
+            <div className="absolute inset-[-1px_0_0_0]">
+              <img alt="" className="block max-w-none size-full" src={imgLine3} />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="absolute flex h-[98.664px] items-center justify-center left-[224.64px] top-[468.79px] w-0">
+        <div className="-rotate-90 flex-none">
+          <div className="h-0 relative w-[98.664px]" data-node-id="110:1819">
+            <div className="absolute inset-[-1px_0_0_0]">
+              <img alt="" className="block max-w-none size-full" src={imgLine33} />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="absolute flex h-[93.243px] items-center justify-center left-[237.95px] top-[474.21px] w-0">
+        <div className="-rotate-90 flex-none">
+          <div className="h-0 relative w-[93.243px]" data-node-id="110:1820">
+            <div className="absolute inset-[-1px_0_0_0]">
+              <img alt="" className="block max-w-none size-full" src={imgLine19} />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="absolute flex h-[93.243px] items-center justify-center left-[251.27px] top-[474.21px] w-0">
+        <div className="-rotate-90 flex-none">
+          <div className="h-0 relative w-[93.243px]" data-node-id="110:1821">
+            <div className="absolute inset-[-1px_0_0_0]">
+              <img alt="" className="block max-w-none size-full" src={imgLine19} />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="absolute flex h-[86.195px] items-center justify-center left-[264.58px] top-[481.26px] w-0">
+        <div className="-rotate-90 flex-none">
+          <div className="h-0 relative w-[86.195px]" data-node-id="110:1822">
+            <div className="absolute inset-[-1px_0_0_0]">
+              <img alt="" className="block max-w-none size-full" src={imgLine21} />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="absolute flex h-[108.965px] items-center justify-center left-[277.89px] top-[458.49px] w-0">
+        <div className="-rotate-90 flex-none">
+          <div className="h-0 relative w-[108.965px]" data-node-id="110:1823">
+            <div className="absolute inset-[-1px_0_0_0]">
+              <img alt="" className="block max-w-none size-full" src={imgLine1} />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="absolute flex h-[98.664px] items-center justify-center left-[291.2px] top-[468.79px] w-0">
+        <div className="-rotate-90 flex-none">
+          <div className="h-0 relative w-[98.664px]" data-node-id="110:1824">
+            <div className="absolute inset-[-1px_0_0_0]">
+              <img alt="" className="block max-w-none size-full" src={imgLine33} />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="absolute flex h-[93.243px] items-center justify-center left-[304.52px] top-[474.21px] w-0">
+        <div className="-rotate-90 flex-none">
+          <div className="h-0 relative w-[93.243px]" data-node-id="110:1825">
+            <div className="absolute inset-[-1px_0_0_0]">
+              <img alt="" className="block max-w-none size-full" src={imgLine19} />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="absolute flex h-[89.99px] items-center justify-center left-[317.83px] top-[477.46px] w-0">
+        <div className="-rotate-90 flex-none">
+          <div className="h-0 relative w-[89.99px]" data-node-id="110:1826">
+            <div className="absolute inset-[-1px_0_0_0]">
+              <img alt="" className="block max-w-none size-full" src={imgLine25} />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="absolute flex h-[86.195px] items-center justify-center left-[331.14px] top-[481.26px] w-0">
+        <div className="-rotate-90 flex-none">
+          <div className="h-0 relative w-[86.195px]" data-node-id="110:1827">
+            <div className="absolute inset-[-1px_0_0_0]">
+              <img alt="" className="block max-w-none size-full" src={imgLine21} />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="absolute flex h-[89.99px] items-center justify-center left-[344.45px] top-[477.46px] w-0">
+        <div className="-rotate-90 flex-none">
+          <div className="h-0 relative w-[89.99px]" data-node-id="110:1828">
+            <div className="absolute inset-[-1px_0_0_0]">
+              <img alt="" className="block max-w-none size-full" src={imgLine25} />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="absolute flex h-[93.243px] items-center justify-center left-[357.77px] top-[474.21px] w-0">
+        <div className="-rotate-90 flex-none">
+          <div className="h-0 relative w-[93.243px]" data-node-id="110:1829">
+            <div className="absolute inset-[-1px_0_0_0]">
+              <img alt="" className="block max-w-none size-full" src={imgLine19} />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="absolute flex h-[98.664px] items-center justify-center left-[371.08px] top-[468.79px] w-0">
+        <div className="-rotate-90 flex-none">
+          <div className="h-0 relative w-[98.664px]" data-node-id="110:1830">
+            <div className="absolute inset-[-1px_0_0_0]">
+              <img alt="" className="block max-w-none size-full" src={imgLine33} />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="absolute flex h-[108.965px] items-center justify-center left-[384.39px] top-[458.49px] w-0">
+        <div className="-rotate-90 flex-none">
+          <div className="h-0 relative w-[108.965px]" data-node-id="110:1831">
+            <div className="absolute inset-[-1px_0_0_0]">
+              <img alt="" className="block max-w-none size-full" src={imgLine1} />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="absolute flex h-[59.088px] items-center justify-center left-[397.7px] top-[508.36px] w-0">
+        <div className="-rotate-90 flex-none">
+          <div className="h-0 relative w-[59.088px]" data-node-id="110:1832">
+            <div className="absolute inset-[-1px_0_0_0]">
+              <img alt="" className="block max-w-none size-full" src={imgLine31} />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="absolute flex h-[59.088px] items-center justify-center left-[411.02px] top-[508.36px] w-0">
+        <div className="-rotate-90 flex-none">
+          <div className="h-0 relative w-[59.088px]" data-node-id="110:1833">
+            <div className="absolute inset-[-1px_0_0_0]">
+              <img alt="" className="block max-w-none size-full" src={imgLine31} />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="absolute flex h-[76.437px] items-center justify-center left-[424.33px] top-[491.01px] w-0">
+        <div className="-rotate-90 flex-none">
+          <div className="h-0 relative w-[76.437px]" data-node-id="110:1834">
+            <div className="absolute inset-[-1px_0_0_0]">
+              <img alt="" className="block max-w-none size-full" src={imgLine5} />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="absolute flex h-[69.39px] items-center justify-center left-[437.64px] top-[498.06px] w-0">
+        <div className="-rotate-90 flex-none">
+          <div className="h-0 relative w-[69.39px]" data-node-id="110:1835">
+            <div className="absolute inset-[-1px_0_0_0]">
+              <img alt="" className="block max-w-none size-full" src={imgLine6} />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="absolute flex h-[79.69px] items-center justify-center left-[450.95px] top-[487.76px] w-0">
+        <div className="-rotate-90 flex-none">
+          <div className="h-0 relative w-[79.69px]" data-node-id="110:1836">
+            <div className="absolute inset-[-1px_0_0_0]">
+              <img alt="" className="block max-w-none size-full" src={imgLine7} />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="absolute flex h-[69.39px] items-center justify-center left-[464.27px] top-[498.06px] w-0">
+        <div className="-rotate-90 flex-none">
+          <div className="h-0 relative w-[69.39px]" data-node-id="110:1837">
+            <div className="absolute inset-[-1px_0_0_0]">
+              <img alt="" className="block max-w-none size-full" src={imgLine6} />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="absolute flex h-[47.163px] items-center justify-center left-[477.58px] top-[520.29px] w-0">
+        <div className="-rotate-90 flex-none">
+          <div className="h-0 relative w-[47.163px]" data-node-id="110:1838">
+            <div className="absolute inset-[-1px_0_0_0]">
+              <img alt="" className="block max-w-none size-full" src={imgLine9} />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="absolute flex h-[69.39px] items-center justify-center left-[490.89px] top-[498.06px] w-0">
+        <div className="-rotate-90 flex-none">
+          <div className="h-0 relative w-[69.39px]" data-node-id="110:1839">
+            <div className="absolute inset-[-1px_0_0_0]">
+              <img alt="" className="block max-w-none size-full" src={imgLine6} />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="absolute flex h-[59.088px] items-center justify-center left-[504.2px] top-[508.36px] w-0">
+        <div className="-rotate-90 flex-none">
+          <div className="h-0 relative w-[59.088px]" data-node-id="110:1840">
+            <div className="absolute inset-[-1px_0_0_0]">
+              <img alt="" className="block max-w-none size-full" src={imgLine31} />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="absolute flex h-[47.163px] items-center justify-center left-[517.52px] top-[520.29px] w-0">
+        <div className="-rotate-90 flex-none">
+          <div className="h-0 relative w-[47.163px]" data-node-id="110:1841">
+            <div className="absolute inset-[-1px_0_0_0]">
+              <img alt="" className="block max-w-none size-full" src={imgLine12} />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="absolute flex h-[29.544px] items-center justify-center left-[530.83px] top-[537.91px] w-0">
+        <div className="-rotate-90 flex-none">
+          <div className="h-0 relative w-[29.544px]" data-node-id="110:1842">
+            <div className="absolute inset-[-1px_0_0_0]">
+              <img alt="" className="block max-w-none size-full" src={imgLine13} />
+            </div>
+          </div>
+        </div>
+      </div>
+      <SolarArchiveDownMinimlisticLineDuotone className="absolute left-[142px] overflow-clip size-[24px] top-[727.09px]" />
+      <SolarArchiveUpMinimlisticLineDuotone className="absolute left-[384.39px] overflow-clip size-[24px] top-[727.56px]" />
+      <p className="absolute font-['Zalando_Sans_Expanded:Regular',sans-serif] leading-[normal] left-[142.42px] not-italic text-[#c2d5e8] text-[28px] top-[266.5px] whitespace-nowrap" data-node-id="108:6847">
+        Dashboard
+      </p>
+      <p className="absolute font-['Plus_Jakarta_Sans:Medium',sans-serif] font-medium leading-[normal] left-[142.42px] text-[14px] text-[rgba(224,237,251,0.58)] top-[305.71px] w-[664.932px]" data-node-id="108:6848">
+        Principais informações financeiras compiladas
+      </p>
+      <div className="-translate-y-1/2 absolute content-stretch flex flex-col h-[937px] items-start justify-between left-[34.21px] top-1/2 w-[24px]" data-node-id="108:6849">
+        <div className="flex items-center justify-center relative shrink-0 w-full">
+          <div className="flex-none rotate-180 w-full">
+            <a className="content-stretch cursor-pointer flex items-center relative w-full" data-node-id="I108:6849;84:3255">
+              <div className="relative shrink-0 size-[24px]" data-node-id="I108:6849;84:3259" data-name="solar:alt-arrow-left-linear">
+                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgSolarAltArrowLeftLinear} />
+              </div>
+            </a>
+          </div>
+        </div>
+        <div className="content-stretch flex flex-col gap-[40px] items-start relative shrink-0 w-full" data-node-id="I108:6849;84:3261">
+          <div className="content-stretch flex flex-col gap-[20px] items-start relative shrink-0 w-full" data-node-id="I108:6849;84:3262">
+            <div className="content-stretch flex flex-col gap-[30px] items-start relative shrink-0 w-full" data-node-id="I108:6849;84:3264">
+              <div className="content-stretch flex items-center relative shrink-0 w-full" data-node-id="I108:6849;84:3265">
+                <div className="content-stretch flex gap-[9px] items-center relative shrink-0" data-node-id="I108:6849;84:3265;72:2656">
+                  <div className="overflow-clip relative shrink-0 size-[24px]" data-node-id="I108:6849;84:3265;72:2125" data-name="solar:home-2-bold">
+                    <div className="absolute inset-[8.33%]" data-node-id="I108:6849;84:3265;72:2125;72:2066" data-name="Vector">
+                      <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgVector1} />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="content-stretch flex items-center relative shrink-0 w-full" data-node-id="I108:6849;84:3266">
+                <div className="content-stretch flex gap-[9px] items-center relative shrink-0" data-node-id="I108:6849;84:3266;84:2834">
+                  <div className="content-stretch flex items-center relative shrink-0" data-node-id="I108:6849;84:3266;84:2835">
+                    <div className="opacity-75 overflow-clip relative shrink-0 size-[24px]" data-node-id="I108:6849;84:3266;84:2836" data-name="solar:bookmark-circle-bold">
+                      <div className="absolute inset-[8.33%]" data-node-id="I108:6849;84:3266;84:2836;72:2778" data-name="Vector">
+                        <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgVector2} />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="content-stretch flex flex-col gap-[20px] items-start relative shrink-0 w-full" data-node-id="I108:6849;84:3267">
+            <div className="content-stretch flex flex-col items-start relative shrink-0 w-full" data-node-id="I108:6849;84:3269">
+              <a className="content-stretch cursor-pointer flex flex-col gap-[23px] items-start justify-center relative shrink-0 w-full" data-node-id="I108:6849;113:3265">
+                <div className="content-stretch flex items-center relative shrink-0 w-full" data-node-id="I108:6849;113:3266">
+                  <div className="content-stretch flex gap-[9px] items-center relative shrink-0" data-node-id="I108:6849;113:3266;72:2669">
+                    <div className="content-stretch flex items-center relative shrink-0" data-node-id="I108:6849;113:3266;72:2471">
+                      <div className="opacity-75 overflow-clip relative shrink-0 size-[24px]" data-node-id="I108:6849;113:3266;72:2069" data-name="solar:chat-round-money-bold">
+                        <div className="absolute inset-[8.33%]" data-node-id="I108:6849;113:3266;72:2069;72:2088" data-name="Vector">
+                          <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgVector3} />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div className="content-stretch flex flex-col gap-[20px] items-start relative shrink-0 w-full" data-node-id="I108:6849;84:3272">
+            <div className="content-stretch flex flex-col gap-[30px] items-start relative shrink-0 w-full" data-node-id="I108:6849;84:3274">
+              <a className="content-stretch cursor-pointer flex flex-col items-start relative shrink-0 w-full" data-node-id="I108:6849;113:3208">
+                <div className="content-stretch flex items-center relative shrink-0 w-full" data-node-id="I108:6849;113:3209">
+                  <div className="content-stretch flex gap-[9px] items-center relative shrink-0" data-node-id="I108:6849;113:3209;72:2669">
+                    <div className="content-stretch flex items-center relative shrink-0" data-node-id="I108:6849;113:3209;72:2471">
+                      <div className="opacity-75 overflow-clip relative shrink-0 size-[24px]" data-node-id="I108:6849;113:3209;72:2069" data-name="solar:pulse-bold">
+                        <div className="absolute inset-[8.33%]" data-node-id="I108:6849;113:3209;72:2069;72:2097" data-name="Vector">
+                          <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgVector4} />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </a>
+              <a className="content-stretch cursor-pointer flex items-center relative shrink-0 w-full" data-node-id="I108:6849;84:3276">
+                <div className="content-stretch flex gap-[9px] items-center relative shrink-0" data-node-id="I108:6849;84:3276;72:2669">
+                  <div className="content-stretch flex items-center relative shrink-0" data-node-id="I108:6849;84:3276;72:2471">
+                    <div className="opacity-75 overflow-clip relative shrink-0 size-[24px]" data-node-id="I108:6849;84:3276;72:2069" data-name="solar:box-bold">
+                      <div className="absolute inset-[8.33%_8.33%_8.73%_8.33%]" data-node-id="I108:6849;84:3276;72:2069;72:2063" data-name="Vector">
+                        <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgVector5} />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </a>
+              <div className="content-stretch flex flex-col items-start justify-center relative shrink-0 w-full" data-node-id="I108:6849;113:3158">
+                <div className="content-stretch flex items-center relative shrink-0 w-full" data-node-id="I108:6849;113:3159">
+                  <div className="content-stretch flex gap-[9px] items-center relative shrink-0" data-node-id="I108:6849;113:3159;72:2656">
+                    <div className="overflow-clip relative shrink-0 size-[24px]" data-node-id="I108:6849;113:3159;72:2125" data-name="solar:add-folder-bold">
+                      <div className="absolute inset-[7.29%_8.33%_9.38%_8.33%]" data-node-id="I108:6849;113:3159;72:2125;72:2147" data-name="Vector">
+                        <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgVector6} />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="content-stretch flex h-[24px] items-center relative shrink-0 w-full" data-node-id="I108:6849;84:3278">
+          <div className="content-stretch flex gap-[9px] items-center relative shrink-0" data-node-id="I108:6849;84:3278;72:2669">
+            <div className="content-stretch flex items-center relative shrink-0" data-node-id="I108:6849;84:3278;72:2471">
+              <div className="opacity-75 overflow-clip relative shrink-0 size-[24px]" data-node-id="I108:6849;84:3278;72:2069" data-name="solar:settings-bold">
+                <div className="absolute inset-[8.33%_8.33%_8.33%_12.5%]" data-node-id="I108:6849;84:3278;72:2069;84:2882" data-name="Vector">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgVector7} />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="absolute flex h-[1080px] items-center justify-center left-[92.42px] top-[-0.1px] w-0">
+        <div className="flex-none rotate-90">
+          <div className="h-0 relative w-[1080px]" data-node-id="108:6850">
+            <div className="absolute inset-[-1px_0_0_0]">
+              <img alt="" className="block max-w-none size-full" src={imgLine34} />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="absolute content-stretch flex items-center justify-between left-[142px] top-[47px] w-[414px]" data-node-id="108:6852">
+        <div className="content-stretch flex gap-[75px] items-center relative shrink-0" data-node-id="108:6853">
+          <div className="content-stretch flex gap-[8px] items-center relative shrink-0" data-node-id="108:6854">
+            <div className="relative shrink-0 size-[42px]" data-node-id="108:6855">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" height="42" src={imgEllipse1} width="42" />
+            </div>
+            <div className="content-stretch flex flex-col font-['Zalando_Sans_Expanded:Regular',sans-serif] gap-[2px] items-start leading-[normal] not-italic relative shrink-0 w-[132px]" data-node-id="108:6856">
+              <p className="relative shrink-0 text-[14px] text-[rgba(0,0,0,0.63)] whitespace-nowrap" data-node-id="108:6857">
+                Hospital da Plástica
+              </p>
+              <p className="min-w-full relative shrink-0 text-[#b8b8b8] text-[12px] w-[min-content]" data-node-id="108:6858">
+                Conta Júrídica
+              </p>
+            </div>
+          </div>
+          <div className="grid-cols-[max-content] grid-rows-[max-content] inline-grid leading-[0] place-items-start relative shrink-0" data-node-id="108:6859">
+            <div className="col-1 ml-0 mt-[12.94px] relative row-1 size-[20px]" data-node-id="108:6860" data-name="solar:alt-arrow-down-linear">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgSolarAltArrowDownLinear} />
+            </div>
+            <div className="col-1 flex items-center justify-center ml-0 mt-0 relative row-1 size-[20px]">
+              <div className="flex-none rotate-180">
+                <div className="relative size-[20px]" data-node-id="108:6862" data-name="solar:alt-arrow-down-linear">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgSolarAltArrowDownLinear1} />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="content-stretch flex gap-[18px] items-center relative shrink-0" data-node-id="108:6864">
+          <div className="bg-[rgba(0,0,0,0.32)] content-stretch flex items-center p-[11px] relative rounded-[17px] shrink-0 size-[42px]" data-node-id="108:6865">
+            <div className="overflow-clip relative shrink-0 size-[20px]" data-node-id="110:1854" data-name="solar:settings-linear">
+              <div className="absolute inset-[8.33%_10.71%_8.33%_10.72%]" data-node-id="110:1855" data-name="Group">
+                <div className="absolute inset-[-4.5%_-4.77%]">
+                  <img alt="" className="block max-w-none size-full" src={imgGroup13} />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="bg-[rgba(0,0,0,0.32)] content-stretch flex items-center p-[11px] relative rounded-[17px] shrink-0 size-[42px]" data-node-id="108:6868">
+            <div className="relative shrink-0 size-[20px]" data-node-id="108:6869" data-name="solar:hamburger-menu-linear">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgSolarHamburgerMenuLinear1} />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="absolute bg-[rgba(48,56,65,0.5)] left-[142px] rounded-[25px] size-[69.594px] top-[146px]" data-node-id="108:6872" />
+      <div className="absolute content-stretch flex items-center left-[162.29px] top-[166.29px] w-[29.011px]" data-node-id="110:2562">
+        <div className="content-stretch flex gap-[10.879px] items-center relative shrink-0" data-node-id="I110:2562;72:2656">
+          <div className="overflow-clip relative shrink-0 size-[29.011px]" data-node-id="I110:2562;72:2125" data-name="solar:home-2-bold">
+            <div className="absolute inset-[8.33%]" data-node-id="I110:2562;72:2125;72:2066" data-name="Vector">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgVector8} />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="absolute content-stretch flex flex-col gap-px items-start left-[695px] not-italic text-[12px] top-[46.8px] w-[311.51px]" data-node-id="142:3286">
+        <p className="font-['Zalando_Sans_Expanded:Medium',sans-serif] leading-[normal] relative shrink-0 text-[#1e1e1e] w-full" data-node-id="142:3287">
+          Painel de Ações
+        </p>
+        <p className="font-['Zalando_Sans_Expanded:Regular',sans-serif] leading-[20px] relative shrink-0 text-[#47535f] w-full" data-node-id="142:3288">{`Acompanhe e organize as movimentações `}</p>
+      </div>
+      <div className="absolute contents left-[1762.31px] top-[26.97px]" data-node-id="142:3290">
+        <div className="absolute bg-[#d9d9d9] border border-[#e9e9e9] border-solid left-[1762.31px] rounded-[17px] size-[50px] top-[26.97px]" data-node-id="142:3291" />
+      </div>
+    </div>
+  );
+}
