@@ -85,7 +85,7 @@ export default function LoginPage() {
           </div>
           <div>
             <p className="text-[15px] font-semibold text-white font-[var(--font-zalando-stack)] leading-tight">
-              Hospital da Plástica
+              SurgeFlow
             </p>
             <p className="text-[12px] text-white/60 font-[var(--font-jakarta)]">
               Sistema de gestão integrada

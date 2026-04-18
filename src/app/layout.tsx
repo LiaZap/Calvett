@@ -25,8 +25,8 @@ const zalandoExpanded = Zalando_Sans_Expanded({
 });
 
 export const metadata: Metadata = {
-  title: "Sistema Financeiro - Hospital da Plástica",
-  description: "Dashboard financeiro do Hospital da Plástica",
+  title: "SurgeFlow",
+  description: "SurgeFlow — Gestão cirúrgica, financeira e de estoque",
 };
 
 export default function RootLayout({
