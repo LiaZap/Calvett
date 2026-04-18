@@ -20,10 +20,10 @@ const navItems = [
 
 // 4 stat tiles — stats shown in the dark sidebar (2×2 grid)
 const statTiles = [
-  { value: "127", label: "Ações hoje", color: "#c2d5e8" },
-  { value: "45", label: "Procedimentos", color: "#a5c16e" },
-  { value: "18", label: "Agendamentos", color: "#c1b26e" },
-  { value: "08", label: "Alertas", color: "#c1846e" },
+  { value: "127", label: "Ações hoje", accent: "#5b7c99" },
+  { value: "45", label: "Procedimentos", accent: "#6aa380" },
+  { value: "18", label: "Agendamentos", accent: "#c1a86e" },
+  { value: "08", label: "Alertas", accent: "#c1846e" },
 ];
 
 export default function AtividadeSidebar() {
@@ -169,19 +169,19 @@ export default function AtividadeSidebar() {
 
       {/* Live/Online chip (to the right of tile) */}
       <div
-        className="absolute flex items-center gap-[8px] rounded-[10px] px-[10px] py-[8px]"
+        className="absolute flex items-center gap-[8px] rounded-[12px] px-[12px] border border-[rgba(165,193,110,0.22)]"
         style={{
           left: 226,
           top: 167,
-          height: 28,
-          background: "rgba(165,193,110,0.14)",
+          height: 32,
+          background: "rgba(165,193,110,0.10)",
         }}
       >
         <span className="relative flex shrink-0 h-[8px] w-[8px]">
           <span className="absolute inline-flex h-full w-full rounded-full bg-[#a5c16e] opacity-60 animate-ping" />
           <span className="relative inline-flex h-[8px] w-[8px] rounded-full bg-[#a5c16e]" />
         </span>
-        <span className="text-[11px] font-medium font-[var(--font-jakarta)] text-[#a5c16e] whitespace-nowrap">
+        <span className="text-[11px] font-semibold font-[var(--font-jakarta)] text-[#a5c16e] whitespace-nowrap">
           Monitoramento ao vivo
         </span>
       </div>
@@ -218,16 +218,20 @@ export default function AtividadeSidebar() {
         {statTiles.map((s) => (
           <div
             key={s.label}
-            className="rounded-[18px] border border-white/5 bg-white/[0.04] px-[18px] py-[18px]"
+            className="rounded-[14px] border border-white/8 bg-white/[0.04] flex flex-col gap-[12px]"
+            style={{ padding: "20px 24px" }}
           >
-            <p
-              className="text-[30px] font-light leading-none font-[var(--font-zalando-stack)]"
-              style={{ color: s.color }}
-            >
+            <div className="flex items-center gap-[8px]">
+              <span
+                className="w-[6px] h-[6px] rounded-full shrink-0"
+                style={{ background: s.accent }}
+              />
+              <p className="text-[10px] uppercase tracking-wider font-semibold text-[rgba(194,213,232,0.6)] font-[var(--font-jakarta)] truncate">
+                {s.label}
+              </p>
+            </div>
+            <p className="text-[30px] font-light leading-none text-[#c2d5e8] font-[var(--font-zalando-stack)] pl-[14px]">
               {s.value}
-            </p>
-            <p className="text-[11px] text-[rgba(194,213,232,0.55)] font-medium font-[var(--font-jakarta)] mt-[10px] truncate">
-              {s.label}
             </p>
           </div>
         ))}
@@ -266,6 +270,7 @@ export default function AtividadeSidebar() {
         top={930}
         count={pacientesCount}
         label="Pacientes"
+        names={hydrated ? pacientes.slice(0, 3).map((p) => p.nome) : ["Adriana Goes", "Maria Silva", "Ana Paula"]}
         subtitle={
           hydrated && pacientes.length
             ? `${primeiroPaciente.split(" ").slice(0, 2).join(" ")} + ${Math.max(0, pacientes.length - 1)} Pacientes`
@@ -277,6 +282,7 @@ export default function AtividadeSidebar() {
         top={930}
         count={fornecedoresCount}
         label="Fornecedores"
+        names={hydrated ? fornecedores.slice(0, 3).map((f) => f.nome) : ["Medekit", "OPME Brasil", "Cirúrgica"]}
         subtitle={
           hydrated && fornecedores.length
             ? `${primeiroFornecedor.split(" ")[0]} e outros ${Math.max(0, fornecedores.length - 1)} Fornecedores`
@@ -287,34 +293,59 @@ export default function AtividadeSidebar() {
   );
 }
 
+const STACK_COLORS = ["#5b7c99", "#7ca598", "#c1846e", "#8a6ec1", "#c1a86e", "#6ec1a8"];
+
+function initialsFor(name: string): string {
+  const parts = name.trim().split(/\s+/).filter(Boolean);
+  if (parts.length === 0) return "??";
+  if (parts.length === 1) return parts[0].slice(0, 2).toUpperCase();
+  return (parts[0][0] + parts[parts.length - 1][0]).toUpperCase();
+}
+
+function colorForName(name: string): string {
+  let hash = 0;
+  for (let i = 0; i < name.length; i++) hash = (hash * 31 + name.charCodeAt(i)) | 0;
+  return STACK_COLORS[Math.abs(hash) % STACK_COLORS.length];
+}
+
 function PeopleStack({
   left,
   top,
   count,
   label,
   subtitle,
+  names,
 }: {
   left: number;
   top: number;
   count: string;
   label: string;
   subtitle: string;
+  names: string[];
 }) {
   return (
-    <div className="absolute" style={{ left, top, width: 180 }}>
-      <div className="flex items-center mb-[10px]">
-        {[0, 1, 2].map((i) => (
+    <div className="absolute" style={{ left, top, width: 200 }}>
+      <div className="flex items-center mb-[12px]">
+        {names.slice(0, 3).map((name, i) => (
           <div
             key={i}
-            className="bg-[#363F48] border border-[#47535f] w-[28px] h-[28px] rounded-full"
-            style={{ marginLeft: i === 0 ? 0 : -8 }}
-          />
+            className="w-[30px] h-[30px] rounded-full flex items-center justify-center ring-2 ring-[#47535f] shadow-[0_2px_4px_rgba(0,0,0,0.15)]"
+            style={{
+              marginLeft: i === 0 ? 0 : -10,
+              background: colorForName(name),
+              zIndex: 3 - i,
+            }}
+          >
+            <span className="text-[10px] font-bold text-white font-[var(--font-dm)]">
+              {initialsFor(name)}
+            </span>
+          </div>
         ))}
       </div>
-      <p className="text-[12px] font-semibold text-[#c2d5e8] truncate font-[var(--font-dm)]">
+      <p className="text-[13px] font-semibold text-[#c2d5e8] truncate font-[var(--font-dm)]">
         {count} {label}
       </p>
-      <p className="text-[12px] text-[#8494a3] leading-[1.111] truncate mt-[4px] font-[var(--font-dm)]">
+      <p className="text-[11px] text-[#8494a3] leading-[1.3] truncate mt-[4px] font-[var(--font-dm)]">
         {subtitle}
       </p>
     </div>

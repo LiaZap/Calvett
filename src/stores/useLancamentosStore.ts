@@ -5,4 +5,5 @@ import { createEntityStore } from "./createEntityStore";
 export const useLancamentosStore = createEntityStore<Lancamento>(
   "calvett-lancamentos",
   seedLancamentos,
+  2,
 );

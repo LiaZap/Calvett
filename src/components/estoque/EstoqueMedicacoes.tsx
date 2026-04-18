@@ -37,7 +37,7 @@ import type {
   MedicacaoStatus,
 } from "@/types";
 
-const COL_LEFT = 332;
+const COL_LEFT = 360;
 const PAD_R = 40;
 
 type Periodo = "7d" | "30d" | "90d";
@@ -244,12 +244,12 @@ export default function EstoqueMedicacoes({ categoria }: Props) {
             O que precisa de atenção agora · {categoria}
           </p>
         </div>
-        <div className="flex items-center gap-[10px] shrink-0">
+        <div className="flex items-center gap-[14px] shrink-0">
           <PeriodoDropdown value={periodo} onChange={setPeriodo} />
           <button
             type="button"
             onClick={() => toast.info("Importação em breve")}
-            className="shrink-0 inline-flex items-center gap-[8px] h-[44px] px-[18px] rounded-[22px] border border-[#ececec] bg-white text-[12px] font-medium font-[var(--font-jakarta)] text-[#47535f] hover:bg-[#fafafa] transition-colors whitespace-nowrap"
+            className="shrink-0 inline-flex items-center gap-[8px] h-[44px] px-[20px] rounded-[12px] border border-[#ececec] bg-white text-[12px] font-medium font-[var(--font-jakarta)] text-[#47535f] hover:bg-[#fafafa] transition-colors whitespace-nowrap"
           >
             <FileSpreadsheet size={14} strokeWidth={1.8} />
             Importar planilha
@@ -258,7 +258,7 @@ export default function EstoqueMedicacoes({ categoria }: Props) {
             <DropdownMenuTrigger asChild>
               <button
                 type="button"
-                className="shrink-0 inline-flex items-center justify-center gap-[10px] h-[44px] pl-[20px] pr-[16px] rounded-[22px] bg-[#2c3e4a] text-white text-[13px] font-semibold font-[var(--font-jakarta)] hover:bg-[#23323c] transition-colors shadow-[0_4px_12px_rgba(44,62,74,0.22)] whitespace-nowrap"
+                className="shrink-0 inline-flex items-center justify-center gap-[10px] h-[44px] pl-[20px] pr-[16px] rounded-[12px] bg-[#2c3e4a] text-white text-[13px] font-semibold font-[var(--font-jakarta)] hover:bg-[#23323c] transition-colors shadow-[0_4px_12px_rgba(44,62,74,0.22)] whitespace-nowrap"
               >
                 <Plus size={15} strokeWidth={2.6} />
                 Novo Item
@@ -329,15 +329,15 @@ export default function EstoqueMedicacoes({ categoria }: Props) {
 
       {/* TWO-COLUMN WIDGET ROW: Inventário bar chart (left) + Movimentações feed (right) */}
       <div
-        className="absolute rounded-[14px] border border-[#ececec] bg-white shadow-[0_1px_3px_rgba(0,0,0,0.04)] p-[22px]"
-        style={{ left: COL_LEFT, top: 344, width: 1020, height: 344 }}
+        className="absolute rounded-[14px] border border-[#ececec] bg-white shadow-[0_1px_3px_rgba(0,0,0,0.04)]"
+        style={{ left: COL_LEFT, top: 344, width: 1020, height: 360, padding: "28px 30px" }}
       >
-        <div className="flex items-center justify-between mb-[18px]">
-          <div>
-            <p className="text-[14px] font-semibold text-[#1e1e1e] font-[var(--font-zalando-stack)]">
+        <div className="flex items-center justify-between mb-[22px]">
+          <div className="flex flex-col gap-[4px]">
+            <p className="text-[14px] font-semibold text-[#1e1e1e] font-[var(--font-zalando-stack)] leading-none">
               Inventário por categoria
             </p>
-            <p className="text-[11px] text-[#9f9f9f] font-[var(--font-jakarta)] mt-[2px]">
+            <p className="text-[11px] text-[#9f9f9f] font-[var(--font-jakarta)] leading-none">
               Unidades em estoque por tipo de insumo
             </p>
           </div>
@@ -345,12 +345,12 @@ export default function EstoqueMedicacoes({ categoria }: Props) {
             total {inventarioPorCategoria.arr.reduce((s, c) => s + c.qtd, 0)} un
           </span>
         </div>
-        <div className="flex flex-col gap-[10px]">
+        <div className="flex flex-col gap-[14px]">
           {inventarioPorCategoria.arr.map((c) => {
             const pct = c.qtd === 0 ? 0 : (c.qtd / inventarioPorCategoria.max) * 100;
             return (
-              <div key={c.categoria} className="flex items-center gap-[14px]">
-                <p className="w-[140px] text-[12px] font-medium text-[#47535f] truncate font-[var(--font-jakarta)]">
+              <div key={c.categoria} className="flex items-center gap-[16px]">
+                <p className="w-[150px] text-[12px] font-medium text-[#47535f] truncate font-[var(--font-jakarta)]">
                   {c.categoria}
                 </p>
                 <div className="flex-1 h-[8px] rounded-full bg-[#f4f4f4] overflow-hidden">
@@ -362,9 +362,9 @@ export default function EstoqueMedicacoes({ categoria }: Props) {
                     }}
                   />
                 </div>
-                <p className="w-[58px] text-right text-[12px] font-semibold tabular-nums text-[#1e1e1e] font-[var(--font-jakarta)]">
+                <p className="w-[64px] text-right text-[12px] font-semibold tabular-nums text-[#1e1e1e] font-[var(--font-jakarta)]">
                   {c.qtd}
-                  <span className="text-[10px] text-[#9f9f9f] font-normal ml-[2px]">un</span>
+                  <span className="text-[10px] text-[#9f9f9f] font-normal ml-[3px]">un</span>
                 </p>
               </div>
             );
@@ -374,20 +374,23 @@ export default function EstoqueMedicacoes({ categoria }: Props) {
 
       {/* Movimentações feed (right side) */}
       <div
-        className="absolute rounded-[14px] border border-[#ececec] bg-white shadow-[0_1px_3px_rgba(0,0,0,0.04)] p-[22px] flex flex-col"
-        style={{ left: 1370, right: PAD_R, top: 344, height: 344 }}
+        className="absolute rounded-[14px] border border-[#ececec] bg-white shadow-[0_1px_3px_rgba(0,0,0,0.04)] flex flex-col"
+        style={{ left: 1370, right: PAD_R, top: 344, height: 360, padding: "28px 24px" }}
       >
-        <div className="flex items-center justify-between mb-[14px]">
-          <div>
-            <p className="text-[14px] font-semibold text-[#1e1e1e] font-[var(--font-zalando-stack)]">
+        <div className="flex items-center justify-between mb-[18px]">
+          <div className="flex flex-col gap-[4px]">
+            <p className="text-[14px] font-semibold text-[#1e1e1e] font-[var(--font-zalando-stack)] leading-none">
               Movimentações recentes
             </p>
-            <p className="text-[11px] text-[#9f9f9f] font-[var(--font-jakarta)] mt-[2px]">
+            <p className="text-[11px] text-[#9f9f9f] font-[var(--font-jakarta)] leading-none">
               Entradas, saídas e ajustes
             </p>
           </div>
         </div>
-        <div className="flex-1 overflow-y-auto flex flex-col gap-[4px] pr-[4px]">
+        <div
+          className="flex-1 overflow-y-auto flex flex-col gap-[6px] [&::-webkit-scrollbar]:hidden"
+          style={{ scrollbarWidth: "none" }}
+        >
           {movimentosMock.map((mv) => (
             <MovimentoRow key={mv.id} mv={mv} />
           ))}
@@ -395,7 +398,7 @@ export default function EstoqueMedicacoes({ categoria }: Props) {
         <button
           type="button"
           onClick={() => toast.info("Histórico completo em breve")}
-          className="mt-[12px] inline-flex items-center justify-center gap-[6px] h-[34px] rounded-[8px] text-[12px] font-semibold text-[#47535f] hover:bg-[#fafafa] transition-colors font-[var(--font-jakarta)]"
+          className="mt-[14px] inline-flex items-center justify-center gap-[6px] h-[36px] rounded-[8px] text-[12px] font-semibold text-[#47535f] hover:bg-[#fafafa] transition-colors font-[var(--font-jakarta)] border border-[#ececec]"
         >
           Ver histórico completo
           <ArrowRight size={13} strokeWidth={2.2} />
@@ -405,9 +408,9 @@ export default function EstoqueMedicacoes({ categoria }: Props) {
       {/* ITENS CRÍTICOS — grid of cards */}
       <div
         className="absolute"
-        style={{ left: COL_LEFT, right: PAD_R, top: 710 }}
+        style={{ left: COL_LEFT, right: PAD_R, top: 728 }}
       >
-        <div className="flex items-center justify-between mb-[14px]">
+        <div className="flex items-center justify-between mb-[16px]">
           <div>
             <p className="text-[14px] font-semibold text-[#1e1e1e] font-[var(--font-zalando-stack)]">
               Itens críticos · precisa de ação
@@ -479,7 +482,7 @@ function HeroStat({
     tone === "warning" ? "#b3935e" : tone === "danger" ? "#c1846e" : "#8a929a";
   const trendColor = trend === "up" ? "#6aa380" : "#c1846e";
   return (
-    <div className="flex-1 px-[24px] py-[22px] flex flex-col gap-[10px]">
+    <div className="flex-1 flex flex-col gap-[10px]" style={{ padding: "22px 28px" }}>
       <div className="flex items-center gap-[10px]">
         <div
           className="w-[30px] h-[30px] rounded-[8px] flex items-center justify-center shrink-0"
@@ -491,7 +494,7 @@ function HeroStat({
           {label}
         </p>
       </div>
-      <div className="flex items-baseline gap-[10px]">
+      <div className="flex items-baseline gap-[10px] pl-[2px]">
         <p className="text-[24px] font-light text-[#1e1e1e] font-[var(--font-zalando-stack)] leading-none tracking-tight">
           {value}
         </p>
@@ -501,7 +504,7 @@ function HeroStat({
           </span>
         )}
       </div>
-      <p className="text-[11px] font-medium font-[var(--font-jakarta)] truncate" style={{ color: hintColor }}>
+      <p className="text-[11px] font-medium font-[var(--font-jakarta)] truncate pl-[2px]" style={{ color: hintColor }}>
         {hint}
       </p>
     </div>
@@ -533,9 +536,9 @@ function MovimentoRow({ mv }: { mv: Movimento }) {
     },
   }[mv.tipo];
   return (
-    <div className="flex items-center gap-[10px] py-[7px] px-[6px] rounded-[8px] hover:bg-[#fafbfc] transition-colors">
+    <div className="flex items-center gap-[12px] py-[10px] px-[10px] rounded-[8px] hover:bg-[#fafbfc] transition-colors">
       <div
-        className="w-[28px] h-[28px] rounded-[7px] flex items-center justify-center shrink-0"
+        className="w-[30px] h-[30px] rounded-[8px] flex items-center justify-center shrink-0"
         style={{ background: tipoConfig.bg, color: tipoConfig.color }}
       >
         {tipoConfig.icon}
@@ -544,11 +547,11 @@ function MovimentoRow({ mv }: { mv: Movimento }) {
         <p className="text-[12px] font-semibold text-[#1e1e1e] truncate font-[var(--font-jakarta)] leading-tight">
           {mv.item}
         </p>
-        <p className="text-[10px] text-[#9f9f9f] truncate font-[var(--font-jakarta)] mt-[2px]">
+        <p className="text-[10px] text-[#9f9f9f] truncate font-[var(--font-jakarta)] mt-[3px]">
           {tipoConfig.label} · {mv.autor} · {mv.quando}
         </p>
       </div>
-      <p className="text-[12px] font-semibold tabular-nums font-[var(--font-jakarta)]" style={{ color: tipoConfig.color }}>
+      <p className="text-[12px] font-semibold tabular-nums font-[var(--font-jakarta)] shrink-0 ml-[4px]" style={{ color: tipoConfig.color }}>
         {tipoConfig.sign}
         {Math.abs(mv.qtd)} un
       </p>
@@ -581,13 +584,13 @@ function CriticalCard({
             : { bg: "#ebf8ee", color: "#5e9a72", label: "OK", msg: "" };
 
   return (
-    <div className="rounded-[14px] border border-[#ececec] bg-white p-[16px] hover:shadow-[0_2px_8px_rgba(0,0,0,0.06)] transition-shadow">
-      <div className="flex items-start justify-between mb-[12px]">
-        <div className="w-[36px] h-[36px] rounded-[9px] bg-[#e7f0f7] text-[#5b7c99] flex items-center justify-center">
-          <Package size={16} strokeWidth={1.8} />
+    <div className="rounded-[14px] border border-[#ececec] bg-white hover:shadow-[0_2px_8px_rgba(0,0,0,0.06)] transition-shadow" style={{ padding: "20px 22px" }}>
+      <div className="flex items-start justify-between mb-[16px]">
+        <div className="w-[38px] h-[38px] rounded-[10px] bg-[#e7f0f7] text-[#5b7c99] flex items-center justify-center">
+          <Package size={17} strokeWidth={1.8} />
         </div>
         <span
-          className="inline-flex items-center gap-[5px] h-[22px] px-[9px] rounded-full text-[10px] font-semibold"
+          className="inline-flex items-center gap-[6px] h-[24px] px-[10px] rounded-full text-[10px] font-semibold"
           style={{ background: config.bg, color: config.color }}
         >
           <span className="w-[5px] h-[5px] rounded-full" style={{ background: config.color }} />
@@ -597,10 +600,10 @@ function CriticalCard({
       <p className="text-[14px] font-semibold text-[#1e1e1e] font-[var(--font-zalando-stack)] truncate leading-tight">
         {medicacao.nome}
       </p>
-      <p className="text-[11px] text-[#9f9f9f] mt-[2px] truncate">
+      <p className="text-[11px] text-[#9f9f9f] mt-[4px] truncate font-[var(--font-jakarta)]">
         {medicacao.dosagem} · Lote {medicacao.lote ?? "—"}
       </p>
-      <div className="mt-[12px] pt-[12px] border-t border-[#f0f0f0] flex items-center justify-between">
+      <div className="mt-[16px] pt-[14px] border-t border-[#f0f0f0] flex items-center justify-between">
         <p className="text-[10px] text-[#9f9f9f] uppercase tracking-wider font-semibold font-[var(--font-jakarta)]">
           {status === "Vencido" ? "Venceu" : status === "Baixa" || status === "Esgotado" ? "Estoque" : "Vence"}
         </p>
@@ -630,7 +633,7 @@ function PeriodoDropdown({
       <DropdownMenuTrigger asChild>
         <button
           type="button"
-          className="shrink-0 inline-flex items-center gap-[8px] h-[44px] px-[16px] rounded-[22px] border border-[#ececec] bg-white text-[12px] font-medium font-[var(--font-jakarta)] text-[#47535f] hover:bg-[#fafafa] transition-colors whitespace-nowrap"
+          className="shrink-0 inline-flex items-center gap-[8px] h-[44px] px-[20px] rounded-[12px] border border-[#ececec] bg-white text-[12px] font-medium font-[var(--font-jakarta)] text-[#47535f] hover:bg-[#fafafa] transition-colors whitespace-nowrap"
         >
           <CalendarClock size={13} strokeWidth={1.8} className="text-[#8a929a]" />
           {current?.label}

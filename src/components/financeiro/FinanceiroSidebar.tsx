@@ -298,6 +298,7 @@ export default function FinanceiroSidebar() {
         top={950}
         count={pacientesCount}
         label="Pacientes"
+        names={hydrated ? pacientes.slice(0, 3).map((p) => p.nome) : ["Adriana Goes", "Maria Silva", "Ana Paula"]}
         subtitle={
           hydrated && pacientes.length
             ? `${primeiroPaciente.split(" ").slice(0, 2).join(" ")} + ${Math.max(0, pacientes.length - 1)} Pacientes`
@@ -309,6 +310,7 @@ export default function FinanceiroSidebar() {
         top={950}
         count={fornecedoresCount}
         label="Fornecedores"
+        names={hydrated ? fornecedores.slice(0, 3).map((f) => f.nome) : ["Medekit", "OPME Brasil", "Cirúrgica"]}
         subtitle={
           hydrated && fornecedores.length
             ? `${primeiroFornecedor.split(" ")[0]} e outros ${Math.max(0, fornecedores.length - 1)} Fornecedores`
@@ -402,34 +404,59 @@ function ActionCircle({
   );
 }
 
+const STACK_COLORS = ["#5b7c99", "#7ca598", "#c1846e", "#8a6ec1", "#c1a86e", "#6ec1a8"];
+
+function initialsFor(name: string): string {
+  const parts = name.trim().split(/\s+/).filter(Boolean);
+  if (parts.length === 0) return "??";
+  if (parts.length === 1) return parts[0].slice(0, 2).toUpperCase();
+  return (parts[0][0] + parts[parts.length - 1][0]).toUpperCase();
+}
+
+function colorForName(name: string): string {
+  let hash = 0;
+  for (let i = 0; i < name.length; i++) hash = (hash * 31 + name.charCodeAt(i)) | 0;
+  return STACK_COLORS[Math.abs(hash) % STACK_COLORS.length];
+}
+
 function PeopleStack({
   left,
   top,
   count,
   label,
   subtitle,
+  names,
 }: {
   left: number;
   top: number;
   count: string;
   label: string;
   subtitle: string;
+  names: string[];
 }) {
   return (
-    <div className="absolute" style={{ left, top, width: 180 }}>
-      <div className="flex items-center mb-[10px]">
-        {[0, 1, 2].map((i) => (
+    <div className="absolute" style={{ left, top, width: 200 }}>
+      <div className="flex items-center mb-[12px]">
+        {names.slice(0, 3).map((name, i) => (
           <div
             key={i}
-            className="bg-[#363F48] border border-[#47535f] w-[28px] h-[28px] rounded-full"
-            style={{ marginLeft: i === 0 ? 0 : -8 }}
-          />
+            className="w-[30px] h-[30px] rounded-full flex items-center justify-center ring-2 ring-[#47535f] shadow-[0_2px_4px_rgba(0,0,0,0.15)]"
+            style={{
+              marginLeft: i === 0 ? 0 : -10,
+              background: colorForName(name),
+              zIndex: 3 - i,
+            }}
+          >
+            <span className="text-[10px] font-bold text-white font-[var(--font-dm)]">
+              {initialsFor(name)}
+            </span>
+          </div>
         ))}
       </div>
-      <p className="text-[12px] font-semibold text-[#c2d5e8] truncate font-[var(--font-dm)]">
+      <p className="text-[13px] font-semibold text-[#c2d5e8] truncate font-[var(--font-dm)]">
         {count} {label}
       </p>
-      <p className="text-[12px] text-[#8494a3] leading-[1.111] truncate mt-[4px] font-[var(--font-dm)]">
+      <p className="text-[11px] text-[#8494a3] leading-[1.3] truncate mt-[4px] font-[var(--font-dm)]">
         {subtitle}
       </p>
     </div>

@@ -15,6 +15,7 @@ export interface EntityState<T extends { id: string }> {
 export function createEntityStore<T extends { id: string }>(
   storageKey: string,
   seed: T[],
+  version = 1,
 ) {
   const initializer: StateCreator<EntityState<T>> = (set, get) => ({
     items: [],
@@ -38,6 +39,8 @@ export function createEntityStore<T extends { id: string }>(
   return create<EntityState<T>>()(
     persist(initializer, {
       name: storageKey,
+      version,
+      migrate: () => ({ items: seed }) as Partial<EntityState<T>>,
       storage: createJSONStorage(() => {
         if (typeof window !== "undefined") return window.localStorage;
         // Fallback no-op storage for SSR
